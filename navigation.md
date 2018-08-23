@@ -1,23 +1,15 @@
 # Vinod Sharma
 
 [Home](index.md)
-[Todo's](todos.md)
 
 [Courses]()
 
-  * # Computer Science
-  * [Artificial Intellegence](AI/index.md)
-  * [Data Structure and Algorithm](DSA/index.md)
-  * [SubMenu Item 2](subitem2.md)
-
-[Help]()
-
-  * # Basic
-  * [Gimmics](gimmicks.md)
-  * [Help](help.md)
+  * # BCA Part II
+  * [Data Structure](DSA/index.md)
+  * [Digital Electronics](DE/index.md)
   - - - -
-  * # SubMenu Heading 2
-  * [SubMenu Item 3](subitem3.md)
+  * # BCA Part III
+  * [Programming in JAVA](JAVA/index.md)
   - - - -
 
 [gimmick:themechooser](Choose theme)
