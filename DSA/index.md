@@ -1,6 +1,6 @@
-# BCA 204 
+# BCA 204 : Data Structure  Time: 3 Hrs Max. Marks: 100  
+---
 
->Data Structure  Time: 3 Hrs Max. Marks: 100  
 
 ## [Unit I](Unit I.md)  
 
