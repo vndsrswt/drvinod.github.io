@@ -9,7 +9,7 @@
   * [Digital Electronics](DE/index.md)
   - - - -
   * # BCA Part III
-  * [Programming in JAVA](JAVA/index.md)
+  * [Programming in JAVA](J/index.md)
   - - - -
 
 [gimmick:themechooser](Choose theme)
