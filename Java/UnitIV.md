@@ -1,4 +1,4 @@
-# Unit I
+# Unit IV
 
-> An overview of Java: Object oriented programming, Two paradigms, abstraction, the, OOP principles, Java class  libraries, variables, arrays, Data types and casting, Operators, operator precedence, Control statements. 
+> Multi threaded Programming: The Java thread model, the main thread, creating thread, creating multiple thread, using is alive () and join (). Thread priorities, synchronization, Inter thread communications, suspending resuming  and stopping thread using multi threading.  Exception handling: Exception handling fundamentals
 

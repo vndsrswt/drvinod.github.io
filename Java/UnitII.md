@@ -1,4 +1,3 @@
-# Unit I
+# Unit II
 
-> An overview of Java: Object oriented programming, Two paradigms, abstraction, the, OOP principles, Java class  libraries, variables, arrays, Data types and casting, Operators, operator precedence, Control statements. 
-
+> Classes & Objects: Class fundamentals, declaring object reference variable, Introducing methods, constructors, the key word, garbage collection, Overloading methods. Inheritance and polymorphism: super class and subclass, protected members, Relationship between super and sub class. Inheritance hierarchy, abstract classes and methods, final methods and classes, nested classes, Type wrappers.

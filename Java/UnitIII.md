@@ -1,4 +1,3 @@
-# Unit I
+# Unit III
 
-> An overview of Java: Object oriented programming, Two paradigms, abstraction, the, OOP principles, Java class  libraries, variables, arrays, Data types and casting, Operators, operator precedence, Control statements. 
-
+> String handling: The string constructor, string length, special string operator character extraction, string comparison, searching string, modifying string, data conversion, changing the case of characters, string buffer.

@@ -1,10 +1,8 @@
----
-Introduction to Applets : Applet Fundamentals, using paint method, basic of AWT
----
+# Unit V
 
-[TOC]
+> Introduction to Applets : Applet Fundamentals, using paint method, basic of AWT
 
-
+ 
 
 # Introduction
 
@@ -69,11 +67,11 @@ Five methods in the Applet class give you the framework on which you build any s
 
 1. Import java.applet.Applet package.
 2. Choose the user defined class that must extends java.applet.Applet class and ensure the
-  modifier of the class must be public.
+    modifier of the class must be public.
 3. Overwrite the life cycle methods of the applet if require.
 4. Save the program and compile.
 5. Run the applet: To run the applet we have two ways. They are using HTML program and using
-  applet viewer tool.
+    applet viewer tool.
 
 Using HTML program: In order to run the applet through HTML program we must use the following tag.
 Syntax:
