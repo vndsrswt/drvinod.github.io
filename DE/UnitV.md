@@ -1,0 +1,2 @@
+## Unit –V
+Memory: Main, RAM, static and Dynamic, ROM, EPROM, EAROM, EEPROM, Cache and Virtual memory. Interconnecting System components: Buses, Interfacing buses, Bus formats-address, data and control, Interfacing keyboard, display, auxiliary storage devices, and printers. I/O cards in personal computers. Development of Indian Super Computer ‘PARAM’: History, Characteristics, Strengths, Weakness and basic Architecture.

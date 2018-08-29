@@ -1,0 +1,2 @@
+## Unit –III
+Building blocks of a computer system: Basic building blocks-I/O, memory, ALU, Control and their interconnections, Control unit and its functions- Instruction-word, Instruction execution cycle, organizational sequence of operation of control registers; controlling of arithmetic operations; branch, skip, jump and shift instructions, ALU-its components.

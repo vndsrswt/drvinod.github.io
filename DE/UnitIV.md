@@ -1,0 +1,2 @@
+## Unit –IV
+Addressing techniques and registers: Addressing techniques-Direct, immediate addressing; paging, relative, Indirect and indexed addressing. Memory buffer register; accumulators; Registers-Indexed, General purpose, Special purpose; overflow, carry, shift, scratch registers; stack pointers; floating point; status information and buffer registers.

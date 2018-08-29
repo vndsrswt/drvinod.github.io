@@ -1,0 +1,2 @@
+# Unit –I
+Overview of electronics: Electronic components-Resistor, capacitor and Inductors, Semiconductor devices: Diodes, transistors (BJT and FET). Integrated circuits, Popular IC packages, Analog vs digital electronics, Transistor as a switch. Boolean algebra: Representation of values and complements, De’Morgans theorem-simplifying expressions.

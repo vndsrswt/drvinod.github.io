@@ -4,6 +4,9 @@
 
 [Courses]()
 
+  * # BCA Part I
+  * [C Language](C/index.md) 
+  - - - -
   * # BCA Part II
   * [Data Structure](DSA/index.md)
   * [Digital Electronics](DE/index.md)
