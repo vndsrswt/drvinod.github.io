@@ -30,3 +30,9 @@
 2. Deitel: How to Program JAVA, PHI 
 3. U.K. Chakraborty and D.G. Dastidar: Software and Systems An Introduction, Wheeler Publishing, Delhi. 
 4. Joseph O’Neil and Herb Schildt: Teach Yourself JAVA, TMH, Delhi 
+
+
+
+[Old Paper](Paper.md)
+
+[Practicals](Practicals.md)
