@@ -8,21 +8,25 @@ String is probably the most commonly used class in java library. String class is
 
 **Literal Strings**: Literal strings are anonymous constant objects of the String class that are defined as text in double quotes. Literal strings don’t have to be constructed: they are “justthere.”
 
-*Strings1 = "Biology”;*
+```java
+Strings1 = "Biology”;
 
-*Strings2 = "C:\\jdk1.4\\docs " ;*
+Strings2 = "C:\\jdk1.4\\docs " ;
 
-*Strings3 = "Hello\n";*
+Strings3 = "Hello\n";
+```
 
 **Empty Strings**
 
 An emptystring has no characters; its length is 0. Not to be confused with anuninitialized string:
 
-*Strings1 = "";*
+```java
+Strings1 = "";
 
-*Strings2 = new String();*
+Strings2 = new String();
 
-*privateString errorMsg; errorMsg is null*
+private String errorMsg; errorMsg is null
+```
 
  
 
@@ -57,19 +61,27 @@ Stringcan be created in number of ways, here are a few ways of creating stringob
 
 1. Using a Stringliteral: String literal is a simple string enclosed in double quotes "" . A string literal is treated as a Sting object.
 
-*String str1 = "Hello";*
+```java
+String str1 = "Hello";
+```
 
 1. Using anotherString object: 
 
-*String str2 = new String(str1);*
+```java
+String str2 = new String(str1);
+```
 
 *3.      *Using new Keyword:**
 
-*String str3 = new String("Java");*
+```java
+String str3 = new String("Java");
+```
 
 1. Using +operator (Concatenation)
 
-*String str4 = str1 + str2; *or, *String str5 ="hello"+"Java";*
+```java
+String str4 = str1 + str2; *or, *String str5 ="hello"+"Java";
+```
 
 Eachtime you create a String literal, the JVM checks the string pool first. If thestring literal already exists in the pool, a reference to the pool instance is returned.If string does not exist in the pool, a new string object is
 
@@ -83,17 +95,23 @@ Whenwe create a new string object using string literal, that string literal isad
 
 presentthere already.
 
-*Stringstr= "Hello";*
+```java
+Stringstr= "Hello";
+```
 
 And,when we create another object with same string, then a reference of the stringliteral already present in
 
 stringpool is returned.
 
-*Stringstr2=str;*
+```java
+Stringstr2=str;*
+```
 
 Butif we change the new string, its reference gets modified.
 
-*str2=str2.concat("world");*
+```java
+str2=str2.concat("world");
+```
 
  
 
@@ -108,16 +126,18 @@ Thereare 2 methods to concatenate two or more string.
 
 **1.      ****Using concat()method: **
 
-*string s = "Hello";*
+```java
+string s = "Hello";
 
-*string str = "Java";*
+string str = "Java";
 
-*string str2 = s.concat(str);*
+string str2 = s.concat(str);
 
-*String str1 ="Hello".concat("Java"); //works with string literals too*
+String str1 ="Hello".concat("Java"); //works with string literals too
+```
 
 **2.      ****Using +operator**
-
+```java
 *string str = "Rahul";*
 
 *string str1 = "Dravid";*
@@ -125,8 +145,7 @@ Thereare 2 methods to concatenate two or more string.
 *string str2 = str + str1;*
 
 *string st = "Rahul"+"Dravid";*
-
-- *
+```
 
 **String Comparison**
 
@@ -139,68 +158,76 @@ Stringcomparison can be done in 3 ways.
  
 
 1. **Using equals() method: **equals() methodcompares two strings for equality. Its general syntax is, boolean equals(Object str). It compares the content of the strings. It will return true ifstring matches, else returns false.
+```java
+String s = "Hell";
 
-*String s = "Hell";*
+String s1 = "Hello";
 
-*String s1 = "Hello"; *
+String s2 = "Hello";
 
-*String s2 = "Hello"; *
+s1.equals(s2); //true
 
-*s1.equals(s2); //true *
-
-*s.equals(s1) ; //false*
+s.equals(s1) ; //false
+```
 
  
 
-**2.      ****Using == operator**
+**2.      Using == operator**
 
-== operator compares two object references tocheck whether they refer to same instance. This also, will return true onsuccessful match.****
+== operator compares two object references tocheck whether they refer to same instance. This also, will return true onsuccessful match.
+```java
+String s1 = "Java";
 
-*String s1 = "Java";*
+String s2 = "Java";
 
-*String s2 = "Java";*
+String s3 = new string ("Java");
 
-*String s3 = new string ("Java");*
+test(Sl == s2) //true
 
-*test(Sl == s2) //true*
-
-*test(s1 == s3) //false*
+test(s1 == s3) //false
+```
 
 **3.      ****By compareTo()method: **compareTo()method compares values and returns an int which tells if the string compared isless than, equal to or greater than th other string. Its general syntax is,****
 
-*int compareTo(String str)*
+```java
+int compareTo(String str)
+```
 
 To use this function youmust implement the Comparable Interface. compareTo() is the only function in* *Comparable Interface.**
+```java
+String s1 = "Abhi";
 
-*String s1 = "Abhi";*
+String s2 = "Viraaj";
 
-*String s2 = "Viraaj";*
+*String s3 = "Abhi";
 
-*String s3 = "Abhi";*
+*s1.compareTo(S2); //return -1 because s1 < s2
 
-*s1.compareTo(S2); //return -1 because s1 < s2*
+*s1.compareTo(S3); //return 0 because s1 == s3
 
-*s1.compareTo(S3); //return 0 because s1 == s3*
-
-*s2.compareTo(s1); //return 1 because s2 > s1*
-
+*s2.compareTo(s1); //return 1 because s2 > s1
+```
  
 
 **charAt(): **charAt()function returns the character located at the specified index.****
 
-*String str = "studytonight";*
+```java
+String str = "studytonight";
 
-*System.out.println(str.charAt(2));*
+System.out.println(str.charAt(2));
 
-Output : u
+//Output : u
+```
 
 **equalsIgnoreCase(): **equalsIgnoreCase()determines the equality of two Strings, ignoring thier case (upper or lowercase doesn't matters with this fuction ).****
 
-*String str = "java";*
+```java
+String str = "java";
 
-*System.out.println(str.equalsIgnoreCase("JAVA"));*
+System.out.println(str.equalsIgnoreCase("JAVA"));
 
-Output: true
+//Output: true
+```
 
 **length() : **length()function returns the number of characters in a String.
 
