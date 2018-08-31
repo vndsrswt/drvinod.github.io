@@ -207,7 +207,7 @@ String s2 = "Viraaj";
 
 *s2.compareTo(s1); //return 1 because s2 > s1
 ```
- 
+
 
 **charAt(): **charAt()function returns the character located at the specified index.****
 
