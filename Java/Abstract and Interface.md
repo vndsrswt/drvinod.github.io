@@ -240,68 +240,9 @@ I am in methodI1 of class B1
 I am in methodI1 of class B1
 I am in methodI1 of class B1
 
-# Polymorphism
 
-**Polymorphism** means one name, manyforms. There are 3 distinct forms of Java Polymorphism;
 
-- Method     overloading (Compile time polymorphism) 
-- Method     overriding through inheritance (Run time polymorphism) 
-- Method     overriding through the Java interface (Run time polymorphism) 
-
-Polymorphism allows a referenceto denote objects of different types at different times during execution. Asuper type reference exhibits polymorphic behavior, since it can denote objectsof its subtypes.
-```java
-interface Shape {
-
-	public double area();
-	public double volume();
-}
-
-class Cube implements Shape {
-
-	int x = 10;
-	public double area( ) {
-
-	    return (6 * x * x);
-	}	
-
-	public double volume() {
-		return (x * x * x);
-	}
-
-}
-
-class Circle implements Shape {
-
-	int radius = 10;
-	public double area() {
-		return (Math.PI * radius * radius);
-	}
-	public double volume() {
-		return 0;
-	}
-}
-
-public class PolymorphismTest {
-
-	public static void main(String args[]) {
-		Shape[] s = { new Cube(), new Circle() };
-		for (int i = 0; i < s.length; i++) {
-			System.out.println("The area and volume of " + s[i].getClass()
-					+ " is " + s[i].area() + " , " + s[i].volume());
-		}
-	}
-}
-```
-Output
-
-The area and volume of class Cube is 600.0 , 1000.0
-The area and volume of class Circle is 314.1592653589793 , 0.0
-
-Java Polymorphism Program Example
-
-The methods area() and volume() are overridden in the implementingclasses. The invocation of the both methods area and volume is determined basedon run time polymorphism of the current object as shown in the output.
-
-## Interfacevs Abstract Class
+## Interface vs Abstract Class
 
 **Interface vs Abstract Class**
 

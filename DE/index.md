@@ -26,3 +26,7 @@
 4. Introduction to Computer Architecture, Stone S.Galgotia Publicatons 1996.
 5. Microprocessor Architecture Programming & Applications, R. Gaonkar, Wiley Eastern-1987.
 6. Computer Architecture and Organization by N.P. Carter, 4 th Edition, McGraw-Hill, 2014.
+
+
+
+[Papers](Paper.md)

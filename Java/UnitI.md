@@ -2,7 +2,7 @@
 
 > An overview of Java: Object oriented programming, Two paradigms, abstraction, the, OOP principles, Java class  libraries, variables, arrays, Data types and casting, Operators, operator precedence, Control statements. 
 
-# Introduction of Java
+## Introduction of Java
 
 Java is one of the world's most important and widely used computer languages, and it has held this distinction for many years. Unlike some other computer languages whose influence has weared with passage of time, while java's has grown. Java is related to C++, which is a direct descendant of C. Much of the character of Java is inherited from these two languages. From C, Java derives its syntax. Many of Java’s object- oriented features were influenced by C++. In fact, several of Java’s defining characteristics come from—or are responses to—its predecessors. Till today it is the first and best choice for developing console/web-based applications.
 
@@ -80,7 +80,7 @@ If you exchange the data between client and server programs (J2SE and J2EE), by 
 
 J2ME is used for developing mobile applications and lower/system level applications. To develop J2ME applications we must use a protocol called WAP (Wireless Applications Protocol).
 
-# Features of Java
+## Features of Java
 
 The prime reason behind creation of Java was to bring portability and security feature into a computer language. Beside these two major features, there were many other features that played an important role in moulding out the final form of this outstanding language. 
 
@@ -112,7 +112,7 @@ Those features are :
 
 13. Object Oriented Programming Language
 
-## Simple
+### Simple
 JAVA is simple because of the following factors: 
 
 1. JAVA is free from pointers hence we can achieve less development time and less execution time [whenever we write a JAVA program we write without pointers and internally it is converted into the equivalent pointer program]. 
@@ -120,7 +120,7 @@ JAVA is simple because of the following factors:
 3. The software JAVA contains a program called garbage collector which is always used to collect unreferenced (unused) memory location for improving performance of a JAVA program. [Garbage collector is the system JAVA program which runs in the background along with regular JAVA program to collect unreferenced memory locations by running at periodical interval of times for improving performance of JAVA applications. 
 4. JAVA contains user friendly syntax’s for developing JAVA applications.
 
-## Platform Independent
+### Platform Independent
 
 A program or technology is said to be platform independent if and only if which can run on all available operating systems. 
 
@@ -136,7 +136,7 @@ The language like JAVA will have a common data types and the common memory space
 
 ![Platform Independent](./images/platformindependent.jpg)
 
-##Architectural Neutral
+### Architectural Neutral
 
 Java compiler generates an architecture-neutral object file format, which makes the compiled code to be executable on many processors, with the presence of Java runtime system.
 
@@ -144,11 +144,11 @@ A language or technology is said to be processors in the real world. The languag
 
 ![Architecture Neutral](./images/ArchitectureNeutral.jpg)
 
-## Portable
+### Portable
 
 A portable language is one which can run on all operating systems and on all processors irrespective their architectures and providers. The language like C, Cpp are treated as nonportable languages whereas the language Java is called portable language
 
-## Multi Threading
+### Multi Threading
 
 With Java's multithreaded feature, it is possible to write programs that can do many tasks simultaneously. This design feature allows developers to construct smoothly running interactive applications. Benefit of multithreading is that it utilizes same memory and other resources to execute multiple threads at the same time, like While typing, grammatical errors are checked along.
 
@@ -166,7 +166,7 @@ With Java's multithreaded feature, it is possible to write programs that can do 
 
 
 
-##Distributed
+### Distributed
 
 Java is designed for the distributed environment of the internet. A service is a said to be a distributed service which runs in multiple servers and that service can be accessed by n number of clients across the globe. In order to develop we must require architecture called trusted network architecture.To develop these applications we require a technology called J2EE.
 
@@ -174,7 +174,7 @@ A service is a said to be a can be accessed by n number of clients across the gl
 
 ![Distributed](./images/distributed.jpg)
 
-## Networked
+### Networked
 
 In real world we have two types of networks. They are untrusted and trsuted networks. 
 
@@ -184,41 +184,39 @@ In real world we have two types of networks. They are untrusted and trsuted netw
 
    ![Network](./images/network.jpg)
 
-## Dynamic
+### Dynamic
 
 Java is considered to be more dynamic than C or C++ since it is designed to adapt to an evolving environment. Java programs can carry extensive amount of run-time information that can be used to verify and resolve accesses to objects on run-time.
 
-## Portable
+### Portable
 
 Being architectural-neutral and having no implementation dependent aspects of the specification makes Java portable. Compiler in Java is written in ANSI C with a clean portability boundary which is a POSIX subset. 
 
-## High Performance
+### High Performance
 
 With the use of Just-In-Time compilers, Java enables high performance. 
 
-## Interpreted
+### Interpreted
 
 Java byte code is translated on the fly to native machine instructions and is not stored anywhere. The development process is more rapid and analytical since the linking is an incremental and lightweight process.
 
-## Secure
+### Secure
 
 With Java's secure feature, it enables to develop virus-free, tamper-free systems. Authentication techniques are based on public-key encryption.
 
 
 
-## Object Oriented
+### Object Oriented
 
 In Java, everything is an Object. Java can be easily extended since it is based on the Object model. 
 
-
-
-## Robust
+### Robust
 
 Java makes an effort to eliminate error prone situations by emphasizing mainly on compile time error checking and runtime checking. Java makes an effort to eliminate error prone codes by emphasizing mainly on compile time error checking and runtime checking. But the main areas which Java improved were Memory Management and mishandled Exceptions by introducing automatic Garbage Collector and Exception Handling.
 
 
 
-#Difference in C and Java
+## Difference in C and Java
 
 **J**ava is look like C but majordifference is object oriented concept and mechanism of define classes andobjects
 
@@ -238,7 +236,7 @@ Java makes an effort to eliminate error prone situations by emphasizing mainly o
 | Allowed                                  | **Variable length arguments** | No variable-length  argument lists       |
 | C requires local  variable declarations to be made at the beginning of a method or block | **Variable declaration**      | Java allows them  anywhere in a method or block |
 
-# Difference in Java and C++
+## Difference in Java and C++
 
 | Properties                | **C++**                                  | **Java**                                 |
 | ------------------------- | ---------------------------------------- | ---------------------------------------- |
@@ -258,7 +256,7 @@ Java makes an effort to eliminate error prone situations by emphasizing mainly o
 
  
 
-# C, C++ and Java
+## C, C++ and Java
 
 
 
@@ -287,9 +285,7 @@ Java makes an effort to eliminate error prone situations by emphasizing mainly o
 
  
 
- 
-
-# Application of Java
+## Application of Java
 
 Java is widely used in every corner of world and of human life. Java is not only used in software’s but is also widely used in designing hardware controlling software components. There are more than 930 million JRE downloads each year and 3 billion mobile phones run java.
 
@@ -301,8 +297,7 @@ Following are some other usage of Java :
 4. Embedded System 
 5. Robotics and games etc.
 
-
-### How to create JAVA program
+**How to create JAVA program**
 
 For creating java program you install jdk toolbox and configure properly according to system then use any ASCII text Editor and following steps. 
 
@@ -344,8 +339,6 @@ HelloWorld
 
 
 
-
-
 > **Difference between class and object**
 
 | **Properties** | **Class**                                                    | **Object**                                                   |
@@ -356,7 +349,7 @@ HelloWorld
 
 
 
-# Operators
+## Operators
 
 Java has well-defined rules for specifying the order in which the operators in an expression are evaluated when the expression has several operators. For example, multiplication and division have a higher precedence than addition and subtraction. Precedence rules can be overridden by explicit parentheses.
 
@@ -408,11 +401,11 @@ Sometimes the precedence order defined in a language do not conform with mathema
 
 
 
-# Cast Conversion/Type casting/boxing-unboxing-autoboxing
+## Cast Conversion/Type casting/boxing-unboxing-autoboxing
 
 Java language specification (SE7-JLS-5.0) uses the word ‘conversion’ as a superset for anything and everything related to transforming objects. The word ‘cast’ is used at places where the developer needs to explicitly tell the compiler that the instance value needs to be converted. Attaching the cast-operator (a type between parentheses), before an object is referred as cast.
 
-## type-safety in Java
+### type-safety in Java
 
 Type-safety is the mechanism provided in a programming language to ensure that there are no issues because of type mismatch between a variable and value attempted to store in it. In Java to ensure type-safety, during compile time the compiler will check for type information between variables using the static type information available. Then during runtime the values are checked for compatibility before storing in a variable.
 
@@ -430,7 +423,7 @@ As per Java language specification (SE7-JLS-5.0) conversions are broadly categor
 - String conversions
 - Value set conversions
 
-## Identity Conversion
+### Identity Conversion
 
 This is given for theoretical completeness. Assigning two instance of same type is identity conversion.
 
@@ -445,7 +438,7 @@ This is given for theoretical completeness. Assigning two instance of same type 
 
 
 
-## Primitive Conversions and Type Cast in Java
+### Primitive Conversions and Type Cast in Java
 
 Assigning a value of one type to a variable of another type is known as Type Casting. When the data is converted from one data type to another data type, then it is called type casting. Type casting is nothing but changing the type of the data. Using type casting, only type of the data can be changed but not the data itself.
 
@@ -466,7 +459,7 @@ In Java, type casting is classified into two types,
 
 
 
-### Widening Primitive Conversion or Automatic type conversion
+#### Widening Primitive Conversion or Automatic type conversion
 
 Automatic Type casting take place when, the two types are compatible the target type is larger than the source type. 
 
@@ -510,7 +503,7 @@ class WideningConversion
 }
 ```
 
-### Narrowing or Explicit type conversion
+#### Narrowing or Explicit type conversion
 
 When you are assigning a larger type value to a variable of smaller type, then you need to perform explicit type casting. 
 
@@ -560,7 +553,7 @@ public class NarrowingPrimitiveConversion
 }
 ```
 
-## Reference Conversions and Cast in Java
+### Reference Conversions and Cast in Java
 
 In this section let us see about categories, widening reference conversion and narrowing reference conversion. With respect to classes and objects, there are four categories to understand for casting.
 
@@ -571,7 +564,7 @@ In this section let us see about categories, widening reference conversion and n
 
 
 
-## Autoboxing and Unboxing in Java
+### Autoboxing and Unboxing in Java
 
 Converting from a primitive type to its corresponding reference type is boxing conversion and vice versa is Unboxing conversion.
 
@@ -678,11 +671,11 @@ class GFG
 ```
 
 In above example we have created a list of elements of Integer type. We are adding int primitive type values instead of Integer Object and the code successfully compiled. It does not generate a compile time error as java compiler create Integer wrapper Object from primitive int i and adds it to the list.
-See the following example for, How it converts…`/* Java program to illustrate autoboxing */``import` `java.io.*;``import` `java.util.*;` `class` `GFG``{``    ``public` `static` `void` `main (String[] args)``    ``{``        ``/* Here we are creating a list of elements``          ``of Integer type. Adding the int primitives``          ``type values by converting them into Integer``          ``wrapper Object*/``        ``List<Integer> list = ``new` `ArrayList<Integer>();``        ``for` `(``int` `i = ``0``; i < ``10``; i++)``            ``list.add(Integer.valueOf(i));` `    ``}``}`
+See the following example for, How it converts…
 
-
-
-
+```java
+/* Java program to illustrate autoboxing */``import` `java.io.*;``import` `java.util.*;` `class` `GFG``{``    ``public` `static` `void` `main (String[] args)``    ``{``        ``/* Here we are creating a list of elements``          ``of Integer type. Adding the int primitives``          ``type values by converting them into Integer``          ``wrapper Object*/``        ``List<Integer> list = ``new` `ArrayList<Integer>();``        ``for` `(``int` `i = ``0``; i < ``10``; i++)``            ``list.add(Integer.valueOf(i));` `    ``}``}`
+```
 
 
 
@@ -732,7 +725,7 @@ Sum of odd numbers = 25
 - Autoboxing and Unboxing lets developers write cleaner code, making it easier to read.
 - The technique let us use primitive types and Wrapper class objects interchangeably and we do not need to perform any typecasting explicitly.
 
-## String Conversion
+### String Conversion
 
 String conversion applies only to the ‘+’ operator, when one operand is a String and another is a primitive type. In such a case, primitive type is converted to its corresponding reference type and then it is converted using the toString() method. No cast is required.
 
@@ -744,7 +737,7 @@ String str2 = str1 + i; //string conversion
 
 Unchecked and Capture Conversion will be discussed in the next tutorial as part of the generics series.
 
-##Questions
+### Questions
 
 1. Difference between casting and autoboxing
 
@@ -786,4 +779,149 @@ Unchecked and Capture Conversion will be discussed in the next tutorial as part 
    Auto-widening occurs when small sized primitive type is casted to big sized primitive type. Auto-up casting occurs when sub class type is casted to super class type. Auto-boxing occurs when primitive type is casted to corresponding wrapper class.
 
 10. **What are the priorities of auto-widening, auto-upcasting and auto-boxing.?**
+
+
+
+
+
+## Java Environment
+
+1. Tools
+2. JDK
+
+### Tools you will need
+
+For performing the java program, you will need a hardware and Software
+
+**Hardware**
+
+- Processor         :           Pentium200-MHz computer
+- Memory           :           minimumof 64 MB of RAM (128 MB of RAM recommended).
+
+**Software**
+
+You also will need the following software’s:
+
+- Operating System
+- Linux or Windows 95/98/2000/XP operating system.
+- Java JDK
+- Microsoft Notepad or any other ASCII text editor
+
+### Download JDK
+
+For running Java programs in your system, you will have to download and install JDK kit from here
+(http://www.oracle.com/technetwork/java/javase/downloads/index.html) (current version is jdk 1.7).
+
+### Setting Class path
+
+Java is freely available on Oracle's Website. Download the latest version of JDK () (Java Development Kit) on
+your operating system. Install JDK on your machine. Once you have installed Java on your machine you would need to set environment variable to point to correct installation directory.
+
+**Setting up path for windows ( 2000/XP/vista/Window 7,8 )**
+Assuming that you have installed Java in C:\ Program files/ Java / JDK directory
+Step 1: Right click on my computer and select properties.
+Step 2: Go to the Advance System Settings tab.
+Step 3: Click on Environment Variables button.
+Step 4: Now alter the path variable so that it also contains the path to JDK installed directory.
+For e.g:- Change C:\windows/ system 32. to C:\windows/system 32; C:\program files / Java/ JDK.
+
+**Setting up path for Linux , Unix , Solaris, free BSD**
+Assuming that you have installed Java in /home/java/JDK directory, do the following:
+
+Step 1: Environment variable path should be set to point where java binaries have been installed. Refer to your shell if you have trouble doing this.
+
+For Example: If you use bash as your shell, then you would add following line to the end bash mc: export PATH=/ Path/to/java
+
+### Popular Java Editors
+
+To write your Java programs, you will need a text editor. There are even more sophisticated IDEsavailable in the market. But for now,you can consider one of the following:
+
+- Notepad: On Windows machine, you can use any simple text editor like Notepad (Recommended for this tutorial), TextPad.
+- Netbeans : Isa Java IDE that is open-source and free which can be downloaded from <http://www.netbeans.org/index.html>.
+- Eclipse:Is also a Java IDE developed by the eclipse open-source community and can be downloaded from <http://www.eclipse.org/>.
+
+### Java Development Kit(JDK)
+
+Java is a recently developed, concurrent, class-based, object-oriented programming and runtime environment, consisting of:
+
+1. A programming language
+2. An API specification
+3. A virtual machine specification
+
+The JDK has as its primary components a collection of programming tools,including:
+
+- appletviewer– this tool can be used to run and debug Java applets without a web browser
+- apt – theannotation-processing tool
+- extcheck– a utility that detects JAR file conflicts
+- idlj –the IDL-to-Java compiler. This utility generates Java bindings from a givenJava IDL file.
+- jabswitch– the Java Access Bridge. Exposes assistive technologies on Microsoft Windows systems.
+- java –the loader for Java applications. This tool is an interpreter and can interpretthe class files generated by the
+- javaccompiler. Now a single launcher is used for both development and deployment.The old deployment launcher, jre, no longer comes with Sun JDK, and instead ithas been replaced by this new java loader.
+- javac –the Java compiler, which converts source code into Java bytecode
+- javadoc –the documentation generator, which automatically generates documentation fromsource code comments
+- jar – thearchiver, which packages related class libraries into a single JAR file. Thistool also helps manage JAR files.
+- javafxpackager– tool to package and sign JavaFX applications
+- jarsigner– the jar signing and verification tool
+- javah –the C header and stub generator, used to write native methods
+- javap –the class file disassembler
+- javaws –the Java Web Start launcher for JNLP applications
+- JConsole– Java Monitoring and Management Console
+- jdb – thedebugger
+- jhat–Java Heap Analysis Tool (experimental)
+- jinfo –This utility gets configuration information from a running Java process orcrash dump. (experimental)
+- jmap –This utility outputs the memory map for Java and can print shared object memorymaps or heap memory details of a given process or core dump. (experimental)
+- jmc –Java Mission Control
+- jps –Java Virtual Machine Process Status Tool lists the instrumented HotSpot JavaVirtual Machines (JVMs) on the target system. (experimental)
+- jrunscript– Java command-line script shell.
+- jstack –utility that prints Java stack traces of Java threads (experimental)
+- jstat –Java Virtual Machine statistics monitoring tool (experimental)
+- jstatd – jstatdaemon (experimental)
+- keytool –tool for manipulating the keystore
+- pack200 –JAR compression tool
+- policytool– the policy creation and management tool, which can determine policy for a Java runtime, specifying which permissions are available for code from various sources
+- VisualVM– visual tool integrating several command-line JDK tools and light weight[clarification needed] performance and memory profiling capabilities
+- wsimport– generates portable JAX-WS artifacts for invoking a web service.
+- xjc – Partof the Java API for XML Binding (JAXB) API. It accepts an XML schema andgenerates Java classes. 
+
+The JDK also called Java Development Kit is a super set of the JRE, and contains everything that is in the JRE, plus tools such as the compilers and debuggers necessary for developing applets and applications.
+
+
+
+### Java Runtime Environment JRE
+
+The JRE is the software environment in which programs compiled for a typical JVM implementation can run. The runtime system includes:
+
+- Code necessary to run Java programs, dynamically link native methods, manage memory, and handle exceptions
+- Implementation of the JVM
+
+The following figure shows the JRE and its components, including a typical JVM implementation's various modules and its functional position with respect to the JRE and class libraries.
+
+![JRE](images/jre01.jpg)
+
+
+
+The Java Runtime Environment (JRE) provides the libraries, the Java Virtual Machine, and other components to run applets and applications written in the Java programming language. JRE does not contain tools and utilities such as compilers or debuggers for developing applets and applications.
+
+![JRE04](images/jre02.jpg)
+
+### Java Virtual Machine (JVM)
+
+Java virtual Machine(JVM) is a virtual Machine that provides runtime environment to execute java byte code. The JVM doesn't understand Java typo, that's why you compile your *.java files to obtain *.class files that contain the bytecodes understandable by the JVM.
+
+JVM control execution of every Java program. It enables features such as automated exception handling, Garbage-collected heap.
+The JVM is an abstract computing machine, having an instruction set that uses memory. Virtual machines are often used to implement a programming language. The JVM is the cornerstone of the Java programming language. It is responsible for Java's cross-platform portability and the small size of its compiled code.
+
+The Solaris JVM is used to execute Java applications. The Java compiler, javac, outputs bytecodes and puts them into a .class file. The JVM then interprets these bytecodes, which can then be executed by any JVM implementation, thus providing Java's cross-platform portability. The next two figures illustrate the traditional compile-time environment and the new portable Java compile-time environment.
+
+![JRE 03](images/jre04.jpg)
+
+#### Sun Just-In-Time (JIT) Compiler
+
+The Sun Java JIT compiler, an integral part of the Solaris JVM, can accelerate execution performance many times over previous levels. Long-running, compute-intensive programs show the best performance improvement.
+
+#### JIT Compile Process
+
+When the JIT compiler environment variable is on (the default), the JVM reads the .class file for interpretation and passes it to the JIT compiler. The JIT compiler then compiles the bytecodes into native code for the platform on which it is running. The next figure illustrates the JIT compile process.
+
+![JRE](images/jre03.gif)
 
