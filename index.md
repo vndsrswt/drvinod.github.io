@@ -8,6 +8,9 @@ My philosohpy about learning is “Learning is never ending process”.
 
 Seeking a position in Education Industry that utilizes my skills and abilities for achieving its goals and offers me high-level professional and technical growth through continuous learning process.
 
+<figure>
+    <img src='assets/3075_pic1.jpg' width=200px height=200px />    
+</figure>
 **Work Experience**
 Industrial Experience : 1
 Teaching Experience: 6.5
