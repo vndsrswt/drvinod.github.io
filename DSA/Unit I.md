@@ -134,9 +134,8 @@ Note: The call to a sub-algorithm that does not return a value is given in the C
 
 > subalgorithm-name (Actual parameters)
 >
-> e.g.        sum(4,7)
+> e.g.        sum(4,7) or sum(x,y)
 >
-> 		 sum(x,y)
 
 2. **Definition of a sub-algorithm that returns a value:**
 
