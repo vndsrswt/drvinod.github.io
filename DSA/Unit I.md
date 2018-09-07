@@ -87,15 +87,85 @@ Introduction:  structure and problem solving,  algorithmic notation,  Data Struc
                        1. AVL Tree
                        2. Red‐Black Tree
                        3. Splay Tree
-                     3. Heap
+                         3. Heap
                        1. Min Heap
                        2. Max Heap
                        3. Binary Heap
-                     4. Parse Tree
+                         4. Parse Tree
 
 ## Algorithms
 ### Introduction to Algorithm
 ### Sub Algorithms
+
+A sub algorithm is  an independent component of an algorithm often broken down into smaller chunks and for this reason is defined separately from the main algorithm. The purpose of a sub algorithm is to perform some computation when required, under control of the main  algorithm. This computation may be performed on zero or more parameters passed by the calling routine. So that they are easy to read, reuse in another algorithm
+
+When the problem is very complex, it is divided into several independent sub-problems. Each sub-problem is called sub-algorithm and can be developed independently. These sub-problems can be combined together to  form the solution for the entire problem. Thus by using sub-algorithms the complex problems can be solved easily. 
+
+> A sub-algorithm is a block of instructions that is executed  when it is called from some other point of the algorithm.
+
+Sub-algorithms are of two type:
+
+- Sub-algorithms that do not return a value
+- Sub-algorithms that return a value
+
+The sub-algorithm is called function in C++.
+
+1. **Definition of a sub-algorithm that does not return a value**
+
+   1. **Sub-algorithm without arguments:**
+
+   ```
+   SUBALGORITHM  subalgorithm-name ( )
+     Statements
+   END subalgorithm-name
+   ```
+   where, ( ) is the empty list.
+
+   2. **Sub-algorithm with arguments:**
+
+   ```
+   SUBALGORITHM  subalgorithm-name (parameter-list)    
+       Statements
+   END subalgorithm-name
+   ```
+   where, Parameter-list is a list that contains one or more parameters that are passed to the sub-algorithm.
+
+Note: The call to a sub-algorithm that does not return a value is given in the CALL statement which has the following syntax:
+
+> subalgorithm-name (Actual parameters)
+>
+> e.g.        sum(4,7)
+>
+> 		 sum(x,y)
+
+2. **Definition of a sub-algorithm that returns a value:**
+
+   1. **Sub-algorithm without arguments:**
+
+      ```
+      ftype  SUBALGORITHM  subalgorithm-name ( )
+              Statements
+         END subalgorithm-name
+      ```
+      Notes:
+
+      - ftype: is any data type that the result of a subalgortihm can have. If the subalgorithm does not return any result, then no type is specified.
+      - ( ) empty list.
+      - If the subalgorithm has a type, then the Statements in the body of the subalgorithm should have return statement, usually it is the last statement.
+
+   2. **Sub-algorithm without arguments:**
+       ```
+       ftype  SUBALGORITHM  subalgorithm-name (parameter-list)
+          Statements
+       END subalgorithm-name
+       ```
+
+       Notes:
+
+       - ftype: is any data type that the result of a Subalgorithm can have. If the Subalgorithm does not return any result, then no type is specified.
+       - parameter-list: includes one or more arguments.
+       - If the Subalgorithm has a type, then the Statements in the body of the Subalgorithm should have return statement, usually it is the last statement.
+
 ### Algorithmic Notation
 #### Big Oh
 #### Big Omega
@@ -513,6 +583,7 @@ The term "data type" and "primitive data type" are often used interchangeably. P
 Integer:  This is used to represent a number without decimal point. 
 
             Eg: 12, 90 
+
 
   
 
