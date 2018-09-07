@@ -4,6 +4,11 @@ Introduction:  structure and problem solving,  algorithmic notation,  Data Struc
 
 ## Introduction
 
+Computer Science is the study of data, its representation and transformation by Computer. For every data object, we consider the class of operations to be performed and then the way to represent the object so that these operations may be efficiently carried out. We require two techniques for this: 
+
+- Devise alternative forms of data representation 
+- Analyze the algorithm which operates on the structure. 
+
 ### Variable
 ### Data
 ### Program
@@ -236,17 +241,7 @@ Note: The call to a sub-algorithm that does not return a value is given in the C
 
 
 
-PROGRAMMING LANGUAGES 
-
-
-
-
-
-  
-
-GOALS AND DESIGN PHILOSOPHIES OF 
-
-PROGRAMMING LANGUAGES 
+GOALS AND DESIGN PHILOSOPHIES OF PROGRAMMING LANGUAGES 
 
 When a programming language is designed, particular attention must be given to the goals of the language. A number of important goals, such as human communication, the prevention and detection of errors, usability, program effectiveness, 
 
@@ -419,10 +414,7 @@ By Vinod:
 
   
 
-Computer Science is the study of data, its representation and transformation by Computer. For every data object, we consider the class of operations to be performed and then the way to represent the object so that these operations may be efficiently carried out. We require two techniques for this: 
-
-- Devise alternative forms of data representation 
-- Analyse the algorithm which operates on the structure. 
+- 
 
   
 
