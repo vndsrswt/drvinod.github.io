@@ -22,17 +22,19 @@ A hierarchy of programming languages based on increasing machine independence in
 
 4. Problem-oriented languages 
 
-1. A machine-level language is the lowest form of computer language. Each  instruction in a program is represented by a numeric code, and numerical addresses are used throughout the program to refer to memory locations in the computer's memory. All bookkeeping aspects of the program are the sole responsibility of the machine-language programmer. Finally, all diagnostics and programming aids must be supplied by the programmer. Also included as machine-level programs are programs written in microcode (i.e., microprograms). 
+
+
+1. A **machine-level language** is the lowest form of computer language. Each  instruction in a program is represented by a numeric code, and numerical addresses are used throughout the program to refer to memory locations in the computer's memory. All bookkeeping aspects of the program are the sole responsibility of the machine-language programmer. Finally, all diagnostics and programming aids must be supplied by the programmer. Also included as machine-level programs are programs written in microcode (i.e., microprograms). 
 
    Microcode allows for the expression of some of the more powerful machine-level instructions in terms of a set of basic machine instructions. 
 
-2. Assembly language is essentially a symbolic version of a machine-level  language. Each operation code is given a symbolic code such as ADD for addition and MUL for multiplication. Moreover, memory locations are given symbolic names such as PAY and RATE. Some assembly languages contain macroinstructions which are at a higher level than assembly-languages instructions. Assembly- language systems offer certain diagnostic and debugging assistance that is normally not available at the machine level. 
+5. **Assembly language** is essentially a symbolic version of a machine-level  language. Each operation code is given a symbolic code such as ADD for addition and MUL for multiplication. Moreover, memory locations are given symbolic names such as PAY and RATE. Some assembly languages contain macroinstructions which are at a higher level than assembly-languages instructions. Assembly- language systems offer certain diagnostic and debugging assistance that is normally not available at the machine level. 
 
-3. A high-level language such as FORTRAN, PASCAL, or PL/I offers most of the features of an assembly language. While some facilities for accessing system- level features may not be provided, a high-level language offers a more enriched set of language features such as structured control constructs, nested statements, blocks, and procedures. 
+6. A **high-level language** such as FORTRAN, PASCAL, or PL/I offers most of the features of an assembly language. While some facilities for accessing system- level features may not be provided, a high-level language offers a more enriched set of language features such as structured control constructs, nested statements, blocks, and procedures. 
 
-4. A problem-oriented language provides for the expression of problems in a specific application or problem area. Examples of such languages are SEQUEL for database retrieval applications and COGO for civil engineering applications. 
+7. A **problem-oriented language** provides for the expression of problems in a specific application or problem area. Examples of such languages are SEQUEL for database retrieval applications and COGO for civil engineering applications. 
 
-Advantages of high-level languages over low-level languages such as machine and assembly languages include the following: 
+**Advantages of high-level languages over low-level languages such as machine and assembly languages include the following:** 
 
 1. High-level languages are easier to learn than their lower-level counterparts. The learning of many high-level languages requires little or no computer hardware background because such languages are relatively  machine-independent. Furthermore, these languages are closer to their problem areas than lower-level languages. 
 
