@@ -7,6 +7,59 @@ Introduction:  structure and problem solving,  algorithmic notation,  Data Struc
 ### Variable
 ### Data
 ### Program
+
+#### Programming Language
+
+Interactions involving humans are most effectively carried out through the medium of language. Language permits the expression of thoughts and ideas, and without it, communication as we know it would be very difficult indeed.  In computer programming, a programming language serves as a means of  communication between the person with a problem and the computer used to  help solve it. An effective programming language enhances both the development  and the expression of computer programs. It must bridge the gap between the often unstructured nature of human thought and the precision required for computer execution. 
+
+A hierarchy of programming languages based on increasing machine independence includes the following: 
+
+1. Machine-level languages 
+
+2. Assembly languages 
+
+3. Higher-level or user-oriented languages 
+
+4. Problem-oriented languages 
+
+1. A machine-level language is the lowest form of computer language. Each  instruction in a program is represented by a numeric code, and numerical addresses are used throughout the program to refer to memory locations in the computer's memory. All bookkeeping aspects of the program are the sole responsibility of the machine-language programmer. Finally, all diagnostics and programming aids must be supplied by the programmer. Also included as machine-level programs are programs written in microcode (i.e., microprograms). 
+
+   Microcode allows for the expression of some of the more powerful machine-level instructions in terms of a set of basic machine instructions. 
+
+2. Assembly language is essentially a symbolic version of a machine-level  language. Each operation code is given a symbolic code such as ADD for addition and MUL for multiplication. Moreover, memory locations are given symbolic names such as PAY and RATE. Some assembly languages contain macroinstructions which are at a higher level than assembly-languages instructions. Assembly- language systems offer certain diagnostic and debugging assistance that is normally not available at the machine level. 
+
+3. A high-level language such as FORTRAN, PASCAL, or PL/I offers most of the features of an assembly language. While some facilities for accessing system- level features may not be provided, a high-level language offers a more enriched set of language features such as structured control constructs, nested statements, blocks, and procedures. 
+
+4. A problem-oriented language provides for the expression of problems in a specific application or problem area. Examples of such languages are SEQUEL for database retrieval applications and COGO for civil engineering applications. 
+
+Advantages of high-level languages over low-level languages such as machine and assembly languages include the following: 
+
+1. High-level languages are easier to learn than their lower-level counterparts. The learning of many high-level languages requires little or no computer hardware background because such languages are relatively  machine-independent. Furthermore, these languages are closer to their problem areas than lower-level languages. 
+
+2. The programmer does not have to be concerned with clerical tasks involving numerical or symbolic references to instructions, memory locations,  constants, etc. Such tasks are handled by a system which translates the high-level language program into machine language. 
+
+3. A programmer is not required to know how to convert data from external forms to various internal forms within the memory of a computer. The ability of a programmer to convert, say, numeric data into internal forms such as floating-point numbers and packed-decimal numbers should be irrelevant. 
+
+4. Most high-level languages offer a programmer a variety of control structures which are not available in low-level languages. High-level languages offer several of the following language constructs: 
+
+   1. Conditional statements (such as IF-THEN-ELSE and CASE statements) 
+
+   2. Looping statements (for both counted and conditional loops) 
+
+   3. Nested statements 
+
+   4. Block structures 
+
+      `These control structures improve programming style and facilitate certain programming approaches such as structured programming. Resulting  programs are easier to read, understand, and alter. This results in reduced  programming costs because programs are less complicated. `
+
+   5. Programs written in a high-level language are usually more easily debugged than their machine- or assembly-language equivalents. High-level languages offer constructs that eliminate or reduce certain kinds of programming errors that occur in low-level languages. For example, the declaration of variables in  a program adds a certain degree of redundancy which is useful in detecting errors in the improper use of variables. Languages often enforce a disciplined use of pointers. Moreover, a structured program is much more easily   debugged than its unstructured counterpart. 
+
+   6. Since most high-level languages offer more powerful control and data-structuring capabilities than low-level languages, the former class of  languages facilitates the expression of a solution to a particular problem. 
+
+   7. Because of the availability of certain language features such as procedures, high-level languages permit a modular and hierarchical description of  programming tasks. These tasks can then be assigned to a team of programmers, thus facilitating a division of labor with a minimum of disruption and effort. Such an approach permits better documentation of a problem. Also,  increased compatibility among programs and programmers can be realized. 
+
+   8. Finally, high-level languages are relatively machine-independent.  Consequently, certain programs such as FORTRAN and COBOL programs are portable. These programs can be executed on different computers with little, if any, change even though these computers have different internal  architectures and machine-language instruction sets. Program portability reduces costs and, in general, protects an installation against computer obsolescence. Often when a computer is replaced, all associated assembly- and machine-language programs become obsolete. 
+
 ### structure and problem solving
 ## Data Structure
 ### Introduction to Data Structure
@@ -181,197 +234,11 @@ Note: The call to a sub-algorithm that does not return a value is given in the C
 
 
 
-BCA 204: Data Structure 
-
-Unit I 
-
-
-
-  
-
 PROGRAMMING LANGUAGES 
 
-Interactions involving humans are most effectively carried out through the medium 
 
-of language. Language permits the expression of thoughts and ideas, and without 
 
-it, communication as we know it would be very difficult indeed. 
 
-In computer programming, a programming language serves as a means of 
-
-communication between the person with a problem and the computer used to 
-
-help solve it. An effective programming language enhances both the development 
-
-and the expression of computer programs. It must bridge the gap between the 
-
-often unstructured nature of human thought and the precision required for 
-
-computer execution. 
-
-A hierarchy of programming languages based on increasing machine  
-
-independence includes the following: 
-
-\1. Machine-level languages 
-
-\2. Assembly languages 
-
-\3. Higher-level or user-oriented languages 
-
-\4. Problem-oriented languages 
-
-  
-
-A machine-level language is the lowest form of computer language. Each 
-
-instruction in a program is represented by a numeric code, and numerical 
-
-addresses are used throughout the program to refer to memory locations in the 
-
-computer's memory. All bookkeeping aspects of the program are the sole  
-
-responsibility of the machine-language programmer. Finally, all diagnostics and 
-
-programming aids must be supplied by the programmer. Also included as 
-
-machine-level programs are programs written in microcode (i.e., microprograms). 
-
-Microcode allows for the expression of some of the more powerful machine-level 
-
-instructions in terms of a set of basic machine instructions. 
-
-Assembly language is essentially a symbolic version of a machine-level  
-
-language. Each operation code is given a symbolic code such as ADD for addition 
-
-and MUL for multiplication. Moreover, memory locations are given symbolic 
-
-names such as PAY and RATE. Some assembly languages contain macroinstruc- 
-
-tions which are at a higher level than assembly-languages instructions. Assembly- 
-
-language systems offer certain diagnostic and debugging assistance that is 
-
-normally not available at the machine level. 
-
-A high-level language such as FORTRAN, PASCAL, or PL/I offers most of 
-
-the features of an assembly language. While some facilities for accessing system- 
-
-level features may not be provided, a high-level language offers a more enriched 
-
-set of language features such as structured control constructs, nested statements, 
-
-blocks, and procedures. 
-
-A problem-oriented language provides for the expression of problems in a 
-
-specific application or problem area. Examples of such languages are SEQUEL 
-
-for database retrieval applications and COGO for civil engineering applications. 
-
-Advantages of high-level languages over low-level languages such as machine 
-
-and assembly languages include the following: 
-
-\1. High-level languages are easier to learn than their lower-level counterparts. 
-
-The learning of many high-level languages requires little or no computer 
-
-hardware background because such languages are relatively  
-
-machine-independent. Furthermore, these languages are closer to their problem areas than 
-
-lower-level languages. 
-
-\2. The programmer does not have to be concerned with clerical tasks involving 
-
-numerical or symbolic references to instructions, memory locations,  
-
-constants, etc. Such tasks are handled by a system which translates the high-level 
-
-language program into machine language. 
-
-\3. A programmer is not required to know how to convert data from external 
-
-forms to various internal forms within the memory of a computer. The ability 
-
-of a programmer to convert, say, numeric data into internal forms such as 
-
-floating-point numbers and packed-decimal numbers should be irrelevant. 
-
-\4. Most high-level languages offer a programmer a variety of control structures 
-
-which are not available in low-level languages. High-level languages offer 
-
-several of the following language constructs: 
-
-Conditional statements (such as IF-THEN-ELSE and CASE statements) 
-
-Looping statements (for both counted and conditional loops) 
-
-Nested statements 
-
-Block structures 
-
-These control structures improve programming style and facilitate certain 
-
-programming approaches such as structured programming. Resulting  
-
-programs are easier to read, understand, and alter. This results in reduced 
-
-programming costs because programs are less complicated. 
-
-\5. Programs written in a high-level language are usually more easily debugged 
-
-than their machine- or assembly-language equivalents. High-level languages 
-
-offer constructs that eliminate or reduce certain kinds of programming errors 
-
-that occur in low-level languages. For example, the declaration of variables in 
-
-a program adds a certain degree of redundancy which is useful in detecting 
-
-errors in the improper use of variables. Languages often enforce a disciplined 
-
-use of pointers. Moreover, a structured program is much more easily  
-
-debugged than its unstructured counterpart. 
-
-\6. Since most high-level languages offer more powerful control and data- 
-
-structuring capabilities than low-level languages, the former class of  
-
-languages facilitates the expression of a solution to a particular problem. 
-
-\7. Because of the availability of certain language features such as procedures, 
-
-high-level languages permit a modular and hierarchical description of  
-
-programming tasks. These tasks can then be assigned to a team of programmers, 
-
-thus facilitating a division of labor with a minimum of disruption and effort. 
-
-Such an approach permits better documentation of a problem. Also,  
-
-increased compatibility among programs and programmers can be realized. 
-
-\8. Finally, high-level languages are relatively machine-independent.  
-
-Consequently, certain programs such as FORTRAN and COBOL programs are 
-
-portable. These programs can be executed on different computers with little, 
-
-if any, change even though these computers have different internal  
-
-architectures and machine-language instruction sets. Program portability reduces 
-
-costs and, in general, protects an installation against computer obsolescence. 
-
-Often when a computer is replaced, all associated assembly- and machine- 
-
-language programs become obsolete. 
 
   
 
