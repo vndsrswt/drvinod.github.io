@@ -14,5 +14,17 @@
   * # BCA Part III
   * [Programming in JAVA](Java/index.md)
 - - - -
+[Compitition Exams]()
+
+  * # NIMCET
+  * [Syllabus](Exam/NIMCET/index.md) 
+- - - -
+  * # CET
+  * [Syllabus](Exam/CET/index.md) 
+
+- - - -
+  * # Other
+  * [Syllabus](Exam/Other/index.md) 
+- - - -
 
 [gimmick:themechooser](Choose theme)
