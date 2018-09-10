@@ -2,7 +2,7 @@ Hint: विद्या ददाति विनयं विनयाद्�
 
 **Introduction**
 
-My philosohpy about learning is ==Learning is never ending process.==
+My philosohpy about learning is `Learning is never ending process.`
 
 [gimmick:FacebookLike](http://www.facebook.com)
 
