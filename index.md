@@ -4,6 +4,10 @@ Hint: विद्या ददाति विनयं विनयाद्�
 
 My philosohpy about learning is “Learning is never ending process”.
 
+[gimmick:FacebookLike](http://www.facebook.com)
+
+Follow me on Twitter : [gimmick:TwitterFollow](@MrVinodSaraswat)
+
 **About Me**
 
 Seeking a position in Education Industry that utilizes my skills and abilities for achieving its goals and offers me high-level professional and technical growth through continuous learning process.
@@ -50,3 +54,6 @@ My Research based on  audit able security of large scale data at the integration
 
 Considering existed algorithms for processing, large scale integration, distributed computing, cloud computing, RSA, Automation…
 
+
+
+[gimmick:Disqus](@vinod_saraswat)

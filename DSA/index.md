@@ -1,6 +1,6 @@
 # BCA 204 : Data Structure  Time: 3 Hrs Max. Marks: 100  
 ---
-
+> [Old Paper](Paper.md)
 
 ## Unit I
 
