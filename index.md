@@ -6,12 +6,6 @@ My philosohpy about learning is `Learning is never ending process.`
 
 [gimmick:FacebookLike](http://www.facebook.com)
 
-[gimmick:FacebookLike ( layout: 'standard', showfaces: false) ](http://www.facebook.com)
-
-[gimmick:FacebookLike ( layout: 'boxcount', showfaces: false) ](http://www.facebook.com)
-
-[gimmick:FacebookLike ( layout: 'buttoncount') ](http://www.facebook.com)
-
 Follow me on Twitter : [gimmick:TwitterFollow](@MrVinodSaraswat)
 
 [Subscribe Us](http://www.youtube.com/watch?v=RMINSD7MmT4)
