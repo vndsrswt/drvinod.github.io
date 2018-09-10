@@ -56,4 +56,4 @@ Considering existed algorithms for processing, large scale integration, distribu
 
 
 
-[gimmick:Disqus](@vinod_saraswat)
+[gimmick:Disqus](vinod_saraswat)
