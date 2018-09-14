@@ -33,6 +33,6 @@
 
 
 
-[Old Paper](Paper.md)
-
-[Practicals](Practicals.md)
+1. [Old Paper](Paper.md)
+2. [Practicals](Practicals.md)
+3. [Complete Syllabus](Complete.md)
