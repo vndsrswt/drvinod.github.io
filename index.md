@@ -8,7 +8,7 @@ My philosohpy about learning is `Learning is never ending process.`
 
 Follow me on Twitter : [gimmick:TwitterFollow](@MrVinodSaraswat)
 
-[Subscribe Us](http://www.youtube.com/watch?v=RMINSD7MmT4)
+[Subscribe Us](https://www.youtube.com/user/vndsrswt/featured?view_as=subscriber)
 
 **About Me**
 

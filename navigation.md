@@ -26,5 +26,15 @@
   * # Other
   * [Syllabus](Exam/Other/index.md) 
 - - - -
+[Programming]()
 
+  * # Python
+  * [Python](Python/index.md) 
+- - - -
+  * # . Sample
+  * [Sample]() 
+- - - -
+  * # Sample
+  * [Sample]()
+- - - -
 [gimmick:themechooser](Choose theme)
