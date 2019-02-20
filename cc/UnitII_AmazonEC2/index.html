@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Welcome to course page of Vinod Sharma">
+    <meta name="author" content="Vinod Sharma Saraswat">
+    <link rel="canonical" href="https://facebook.com/Mr.VinodSaraswat/cc/UnitII_AmazonEC2/">
+    <link rel="../../img/favicon.ico">
+
+    
+    <title>Amazon Elastic Cloud Computing EC2 - Vinod Sharma</title>
+    
+
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/hack-font@3.3.0/build/web/hack.min.css">
+    <link href='//fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic&subset=latin-ext,latin' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,600,700&subset=latin-ext,latin' rel='stylesheet' type='text/css'>
+    <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
+    <link href="../../css/base.min.css" rel="stylesheet">
+    <link href="../../css/cinder.min.css" rel="stylesheet">
+    <link href="../../css/highlight.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+            <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+        <![endif]-->
+
+    <script src="//ajax.googleapis.com/ajax/libs/webfont/1.6.28/webfont.js"></script>
+    <script>
+    WebFont.load({
+        google: {
+            families: ['Open Sans', 'PT Sans']
+        }
+    });
+    </script>
+
+    
+
+     
+</head>
+
+<body>
+
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Collapsed navigation -->
+        <div class="navbar-header">
+            <!-- Expander button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            
+
+            <!-- Main title -->
+
+            <a class="navbar-brand" href="../..">Vinod Sharma</a>
+        </div>
+
+        <!-- Expanded navigation -->
+        <div class="navbar-collapse collapse">
+                <!-- Main navigation -->
+                <ul class="nav navbar-nav">
+                
+                
+                    <li >
+                        <a href="../..">Home</a>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../../Java">Java</a>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../../dsa">DSA</a>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../../de">Digital Electronic</a>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../../ec">Electronic Commerce</a>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="..">Cloud Computing</a>
+                    </li>
+                
+                
+                </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                            <i class="fas fa-search"></i> Search
+                        </a>
+                    </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+    <div class="container">
+        
+        
+        <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="first-level active"><a href="#amazon-elastic-cloud-computing-ec2">Amazon Elastic Cloud Computing EC2</a></li>
+            <li class="second-level"><a href="#introduction">Introduction</a></li>
+                
+            <li class="second-level"><a href="#using-amazon-ec2-to-run-instances">Using Amazon EC2 to Run Instances</a></li>
+                
+            <li class="second-level"><a href="#amazon-ec2-service-characteristics">Amazon EC2 Service Characteristics</a></li>
+                
+            <li class="second-level"><a href="#amazon-ec2-concepts">Amazon EC2 Concepts</a></li>
+                
+            <li class="second-level"><a href="#how-to-access-ec2">How to access EC2</a></li>
+                
+            <li class="second-level"><a href="#ami-and-instance">AMI and Instance</a></li>
+                
+                <li class="third-level"><a href="#using-an-ami">Using an AMI</a></li>
+                <li class="third-level"><a href="#amazon-linux-2-and-amazon-linux-ami">Amazon Linux 2 and Amazon Linux AMI</a></li>
+                <li class="third-level"><a href="#types-of-images">Types of images</a></li>
+            <li class="second-level"><a href="#region-and-zones">Region and Zones</a></li>
+                
+                <li class="third-level"><a href="#region-and-availability-zone-concepts">Region and Availability Zone Concepts</a></li>
+                <li class="third-level"><a href="#regions">Regions</a></li>
+                <li class="third-level"><a href="#availability-zones">Availability Zones</a></li>
+                <li class="third-level"><a href="#available-regions">Available Regions</a></li>
+                <li class="third-level"><a href="#regions-and-endpoints">Regions and Endpoints</a></li>
+                <li class="third-level"><a href="#describing-your-regions-and-availability-zones">Describing Your Regions and Availability Zones</a></li>
+                <li class="third-level"><a href="#specifying-the-region-for-a-resource">Specifying the Region for a Resource</a></li>
+                <li class="third-level"><a href="#launching-instances-in-an-availability-zone">Launching Instances in an Availability Zone</a></li>
+                <li class="third-level"><a href="#migrating-an-instance-to-another-availability-zone">Migrating an Instance to Another Availability Zone</a></li>
+    </ul>
+</div></div>
+        <div class="col-md-9" role="main">
+
+<h1 id="amazon-elastic-cloud-computing-ec2">Amazon Elastic Cloud Computing EC2<a class="headerlink" href="#amazon-elastic-cloud-computing-ec2" title="Permanent link">Link</a></h1>
+<h2 id="introduction">Introduction<a class="headerlink" href="#introduction" title="Permanent link">Link</a></h2>
+<p>Amazon EC2 presents a true virtual computing environment, allowing cli- ents to use a web-based interface to obtain and manage services needed to launch one or more instances of a variety of operating systems (OSs). Cli- ents can load the OS environments with their customized applications. They can manage their network’s access permissions and run as many or as few systems as needed. In order to use Amazon EC2, clients first need to create an Amazon Machine Image (AMI). This image contains the applica- tions, libraries, data, and associated configuration settings used in the virtual computing environment. Amazon EC2 offers the use of preconfigured images built with templates to get up and running immediately. Once users have defined and configured their AMI, they use the Amazon EC2 tools provided for storing the AMI by uploading the AMI into Amazon S3. Ama- zon S3 is a repository that provides safe, reliable, and fast access to a client AMI. Before clients can use the AMI, they must use the Amazon EC2 web service to configure security and network access.</p>
+<p>Amazon EC2 is the heart of the Amazon cloud. It provides a web services API for provisioning, managing, and deprovisioning virtual servers inside the Amazon cloud.</p>
+<p>In other words, any application anywhere on the Internet can launch a <strong>virtual server</strong> in the Amazon cloud with a single web services call.</p>
+<p>At the time of this, <strong>Amazon’s EC2</strong> U.S. footprint spans <strong>three data centers</strong> on the <strong>East Coast of the U.S.</strong> and two in <strong>Western Europe</strong>. <strong>You can sign up separately for an Amazon European data center account</strong>, but you <strong>cannot mix and match U.S. and European</strong> environments.</p>
+<p>The servers in these environments run a highly customized version of the Open Source Xen hyper-visor using <mark>para virtualization</mark>.</p>
+<p>This <strong>Xen environment</strong> enables the dynamic provisioning and deprovisioning of servers, as well as the capabilities necessary to provide isolated computing environment for guest servers.</p>
+<p>When you want to start up a virtual server in the Amazon environment, you launch a new node based on a predefined <strong>Amazon machine image (AMI)</strong>.</p>
+<p>The AMI includes your operating system and any other prebuilt software. Most people start with a standard <strong>AMI</strong> based on their favorite operating system, customize it, create a new image, and then launch their servers based on their custom images.
+By itself, EC2 has two kinds of storage:</p>
+<ul>
+<li>Ephemeral storage tied to the node that expires with the node</li>
+<li>Block storage that acts like a SAN and persists across time</li>
+</ul>
+<p>Amazon has provided a popular universal and comprehensive solution to Cloud Computing, called the Amazon Elastic Compute Cloud (EC2) (2010). This solu- tion was released as a limited public beta on August 25, 2006, but grew rapidly in the following years. After Amazon added many important and powerful features to EC2, it dropped the beta label on October 23, 2008. Today EC2 provides complete control over a customer’s computing resources, so new server instances can be set up and booted in minutes, and their capacity can be scaled quickly through a simple web service interface. </p>
+<p>EC2 provides many useful features for customers, including a mature and inexpensive billing system able to charge for computing at a very fine-grained level (memory usage, CPU usage, data transfer, etc.), deployment between multiple locations,elastic IP addresses,connection to a customer’s existing infrastructure through a Virtual Private Network, monitoring services by Amazon Cloud Watch, and elastic load balancing. EC2 has deployed such fine granularity and precision that it has become a benchmark and model in cloud computing.</p>
+<table>
+<thead>
+<tr>
+<th>CaaS</th>
+<th>Amazon EC2</th>
+<th>GoGrid</th>
+<th>Rackspace (cloud server)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Virtualization</td>
+<td>Xen</td>
+<td>Xen</td>
+<td>VMware</td>
+</tr>
+<tr>
+<td>OS support</td>
+<td>Linux, Windows</td>
+<td>Linux, Windows</td>
+<td>Linux, Windows</td>
+</tr>
+<tr>
+<td>Server RAM</td>
+<td>1.7 GB and going upto 68.4 GB</td>
+<td>0.5 GB and going up to 8 GB</td>
+<td>256 MB and going up to 16 GB</td>
+</tr>
+<tr>
+<td>Load Balancer</td>
+<td>Amazon Elastic Load Balancer</td>
+<td>Free F5 Load Balancer</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Persistent Block Storage</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Hybrid Hosting</td>
+<td>No</td>
+<td>Yes</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>24/7 Support</td>
+<td>No</td>
+<td>Yes</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Pricing</td>
+<td>Billed 0.085 – 3.18 per hour (vary for different Instance and Regions). The Data Transfer rates vary based on where the data goes out to and comes in from with pricing between 0.00 to 0.15 per GB transferred.</td>
+<td>Billed 0.19 per GB of deployed RAM per hour and 60 GB of disk, 0.50 per GB of outbound data transferred, and all inbound data transfer is free.</td>
+<td>Billed 0.06 per GB of deployed RAM per Hour and 40 GB of disk, 0.05 per GB of inbound data transfer and 0.22 per GB of outbound data transfer.</td>
+</tr>
+<tr>
+<td>Amazon’s EC2 provides virtual machine based computation environments. It uses the Xen hypervisor (2010) to manage their Amazon Machine Image (AMI) instance. AMI (Amazon EC2, 2010) is “an encrypted machine image that contains all information necessary to boot instances of your software”. Using simple web service interfaces, users can launch, run, monitor and terminate their instances. Moreover they can, on the fly, add any of the above mentioned</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>features to their configuration as they desire.</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><img alt=" Lifecycle of amazon machine image" src="../assets/1548613896981.png" /></p>
+<p>Many competitors to Amazon also provide persistent internal storage for nodes to make them operate more like a traditional data center.
+In addition, servers in EC2—like any other server on the Internet—can access Amazon S3 for cloud-based persistent storage. EC2 servers in particular see both cost savings and greater efficiencies in accessing S3.</p>
+<p>To secure your network within the cloud, you can control virtual firewall rules that define how traffic can be filtered to your virtual nodes. You define routing rules by creating security groups and associating the rules with those groups. For example, you might create a DMZ group that allows port 80 and port 443 traffic from the public Internet into its servers, but allows no other incoming traffic.</p>
+<h2 id="using-amazon-ec2-to-run-instances">Using Amazon EC2 to Run Instances<a class="headerlink" href="#using-amazon-ec2-to-run-instances" title="Permanent link">Link</a></h2>
+<p>During configuration, users choose which instance type(s) and operating system they want to use. Available instance types come in two distinct cate- gories, Standard or High-CPU instances. Most applications are best suited for Standard instances, which come in small, large, and extra-large instance platforms. High-CPU instances have proportionally more CPU resources than random-access memory (RAM) and are well suited for compute-inten- sive applications. With the High-CPU instances, there are medium and extra large platforms to choose from. After determining which instance to use, clients can start, terminate, and monitor as many instances of their AMI as needed by using web service Application Programming Interfaces (APIs) or a wide variety of other management tools that are provided with the service. Users are able to choose whether they want to run in multiple locations, use static IP endpoints, or attach persistent block storage to any of their instances, and they pay only for resources actually consumed. They can also choose from a library of globally available AMIs that provide useful instances. For example, if all that is needed is a basic Linux server, clients can choose one of the standard Linux distribution AMIs.</p>
+<h2 id="amazon-ec2-service-characteristics">Amazon EC2 Service Characteristics<a class="headerlink" href="#amazon-ec2-service-characteristics" title="Permanent link">Link</a></h2>
+<p>There are quite a few characteristics of the EC2 service that provide signifi- cant benefits to an enterprise. First of all, Amazon EC2 provides financial benefits. Because of Amazon’s massive scale and large customer base, it is an inexpensive alternative to many other possible solutions. The costs incurred to set up and run an operation are shared over many customers, making the overall cost to any single customer much lower than almost any other alter- native. Customers pay a very low rate for the compute capacity they actually consume. Security is also provided through Amazon EC2 web service inter- faces. These allow users to configure firewall settings that control network access to and between groups of instances. Amazon EC2 offers a highly reli- able environment where replacement instances can be rapidly provisioned. When one compares this solution to the significant up-front expendi- tures traditionally required to purchase and maintain hardware, either in- house or hosted, the decision to outsource is not hard to make. Outsourced solutions like EC2 free customers from many of the complexities of capacity planning and allow clients to move from large capital investments and fixed costs to smaller, variable, expensed costs. This approach removes the need to overbuy and overbuild capacity to handle periodic traffic spikes. The EC2 service runs within Amazon’s proven, secure, and reliable network infra- structure and data center locations.</p>
+<ol>
+<li>
+<p>Dynamic Scalability:Amazon EC2 enables users to increase or decrease capacity in a few min- utes. Users can invoke a single instance, hundreds of instances, or even thousands of instances simultaneously. Of course, because this is all con- trolled with web service APIs, an application can automatically scale itself up or down depending on its needs. This type of dynamic scalability is very attractive to enterprise customers because it allows them to meet their cus- tomers’ demands without having to overbuild their infrastructure.</p>
+</li>
+<li>
+<p>Full Control of Instances: Users have complete control of their instances. They have root access to each instance and can interact with them as one would with any machine. Instances can be rebooted remotely using web service APIs. Users also have access to console output of their instances. Once users have set up their account and uploaded their AMI to the Amazon S3 service, they just need to boot that instance. It is possible to start an AMI on any number of instances (or any type) by calling the RunInstances API that is provided by Amazon.</p>
+</li>
+<li>
+<p>Configuration Flexibility: Configuration settings can vary widely among users. They have the choice of multiple instance types, operating systems, and software packages. Ama- zon EC2 allows them to select a configuration of memory, CPU, and instance storage that is optimal for their choice of operating system and application. For example, a user’s choice of operating systems may also include numerous Linux distributions, Microsoft Windows Server, and even an OpenSolaris environment, all running on virtual servers.</p>
+</li>
+<li>
+<p>Integration with Other Amazon Web Services : Amazon EC2 works in conjunction with a variety of other Amazon web ser- vices. For example, Amazon Simple Storage Service (Amazon S3), Amazon SimpleDB, Amazon Simple Queue Service (Amazon SQS), and Amazon CloudFront are all integrated to provide a complete solution for computing, query processing, and storage across a wide range of applications. <strong>Amazon S3</strong> provides a web services interface that allows users to store and retrieve any amount of data from the Internet at any time, anywhere. It gives developers direct access to the same highly scalable, reliable, fast,inexpensive data storage infrastructure Amazon uses to run its own global network of web sites. The S3 service aims to maximize benefits of scale and to pass those benefits on to developers.<strong>Amazon SimpleDB</strong> is another web-based service, designed for running queries on structured data stored with the Amazon Simple Storage Service (Amazon S3) in real time. This service works in conjunction with the Ama- zon Elastic Compute Cloud (Amazon EC2) to provide users the capability to store, process, and query data sets within the cloud environment. These services are designed to make web-scale computing easier and more cost- effective for developers. Traditionally, this type of functionality was pro- vided using a clustered relational database that requires a sizable investment. Implementations of this nature brought on more complexity and often required the services of a database administer to maintain it. By comparison to traditional approaches, Amazon SimpleDB is easy to use and provides the core functionality of a database (e.g., real-time lookup and simple querying of structured data) without inheriting the operational complexity involved in traditional implementations. Amazon SimpleDB requires no schema, automatically indexes data, and provides a simple API for data storage and access. This eliminates the need for cus- tomers to perform tasks such as data modeling, index maintenance, and performance tuning. <strong>Amazon Simple Queue Service (Amazon SQS)</strong> is a reliable, scalable, hosted queue for storing messages as they pass between computers. Using Amazon SQS, developers can move data between distributed components of applications that perform different tasks without losing messages or requiring 100% availability for each component. Amazon SQS works by exposing Amazon’s web-scale messaging infrastructure as a service. Any computer connected to the Internet can add or read messages without the need for having any installed software or special firewall configurations. Components of applications using Amazon SQS can run independently and do not need to be on the same network, developed with the same tech- nologies, or running at the same time. <strong>Amazon CloudFront</strong> is a web service for content delivery. It integrates with other Amazon web services to distribute content to end users with low latency and high data transfer speeds. Amazon CloudFront delivers content using a global network of edge locations. Requests for objects are automat- ically routed to the nearest edge server, so content is delivered with the best possible performance. An edge server receives a request from the user’s computer and makes a connection to another computer called the origin server, where the application resides. When the origin server fulfills the request, it sends the application’s data back to the edge server, which, in turn, forwards the data to the client computer that made the request.</p>
+</li>
+<li>
+<p><strong>Reliable and Resilient Performance Amazon Elastic Block Store (EBS)</strong> is yet another Amazon EC2 feature that provides users powerful features to build failure-resilient applications. Amazon EBS offers persistent storage for Amazon EC2 instances. Amazon EBS volumes provide “off-instance” storage that persists independently from the life of any instance. Amazon EBS volumes are highly available, highly reliable data shares that can be attached to a running Amazon EC2 instance and are exposed to the instance as standard block devices. Amazon EBS volumes are automatically replicated on the back end. The service pro- vides users with the ability to create point-in-time snapshots of their data volumes, which are stored using the Amazon S3 service. These snapshots can be used as a starting point for new Amazon EBS volumes and can pro- tect data indefinitely.</p>
+</li>
+<li>
+<p><strong>Support for Use in Geographically Disparate Locations Amazon EC2</strong> provides users with the ability to place one or more instances in multiple locations. Amazon EC2 locations are composed of Regions (such as North America and Europe) and Availability Zones. Regions con- sist of one or more Availability Zones, are geographically dispersed, and are in separate geographic areas or countries. Availability Zones are distinct locations that are engineered to be insulated from failures in other Availabil- ity Zones and provide inexpensive, low-latency network connectivity to other Availability Zones in the same Region. For example, the North America Region may be split into the following Availability Zones: North- east, East, SouthEast, NorthCentral, Central, SouthCentral, NorthWest, West, SouthWest, etc. By launching instances in any one or more of the sep- arate Availability Zones, you can insulate your applications from a single point of failure. Amazon EC2 has a service-level agreement that commits to a 99.95% uptime availability for each Amazon EC2 Region. Amazon EC2 is currently available in two regions, the United States and Europe.</p>
+</li>
+<li>
+<p>Elastic IP Addressing Elastic IP (EIP) addresses are static IP addresses designed for dynamic cloud computing. An Elastic IP address is associated with your account and not with a particular instance, and you control that address until you choose explicitly to release it. Unlike traditional static IP addresses, however, EIP addresses allow you to mask instance or Availability Zone failures by pro- grammatically remapping your public IP addresses to any instance in your account. Rather than waiting on a technician to reconfigure or replace your host, or waiting for DNS to propagate to all of your customers, Amazon EC2 enables you to work around problems that occur with client instances or client software by quickly remapping their EIP address to another run- ning instance. A significant feature of Elastic IP addressing is that each IP address can be reassigned to a different instance when needed. Now, let’s review how the Elastic IPs work with Amazon EC2 services. First of all, Amazon allows users to allocate up to five Elastic IP addresses per account (which is the default). Each EIP can be assigned to a single instance. When this reassignment occurs, it replaces the normal dynamic IP address used by that instance. By default, each instance starts with a dynamic IP address that is allocated upon startup. Since each instance can have only one external IP address, the instance starts out using the default dynamic IP address. If the EIP in use is assigned to a different instance, a new dynamic IP address is allocated to the vacated address of that instance. Assigning or reassigning an IP to an instance requires only a few minutes. The limitation of designating a single IP at a time is due to the way Network Address Translation (NAT) works. Each instance is mapped to an internal IP address and is also assigned an external (public) address. The public address is mapped to the internal address using Network Address Translation tables (hence, NAT). If two external IP addresses hap- pen to be translated to the same internal IP address, all inbound traffic (in the form of data packets) would arrive without any issues. However, assign- ing outgoing packets to an external IP address would be very difficult because a determination of which external IP address to use could not be made. This is why implementors have built in the limitation of having only a single external IP address per instance at any one time.</p>
+</li>
+</ol>
+<h2 id="amazon-ec2-concepts">Amazon EC2 Concepts<a class="headerlink" href="#amazon-ec2-concepts" title="Permanent link">Link</a></h2>
+<ul>
+<li>AMI &amp; Instance</li>
+<li>Region &amp; Zones</li>
+<li>Storage </li>
+<li>Networking and Security</li>
+<li>Monitoring</li>
+<li>Auto Scaling</li>
+<li>Load Balancer</li>
+</ul>
+<h2 id="how-to-access-ec2">How to access EC2<a class="headerlink" href="#how-to-access-ec2" title="Permanent link">Link</a></h2>
+<ul>
+<li>AWS Console</li>
+<li>–<a href="http://console.aws.amazon.com/">http://console.aws.amazon.com</a></li>
+<li>Command Line Tools</li>
+<li>Programmatic Interface</li>
+<li>EC2 APIs</li>
+<li>AWS SDK</li>
+</ul>
+<h2 id="ami-and-instance">AMI and Instance<a class="headerlink" href="#ami-and-instance" title="Permanent link">Link</a></h2>
+<p>An Amazon Machine Image (AMI) provides the information required to launch an instance, which is a virtual server in the cloud. You must specify a source AMI when you launch an instance. You can launch multiple instances from a single AMI when you need multiple instances with the same configuration. You can use different AMIs to launch instances when you need instances with different configurations.</p>
+<p>An AMI includes the following:</p>
+<ul>
+<li>A template for the root volume for the instance (for example, an operating system, an application server, and applications)</li>
+<li>Launch permissions that control which AWS accounts can use the AMI to launch instances</li>
+<li>A block device mapping that specifies the volumes to attach to the instance when it's launched</li>
+<li>Amazon Machine Image (AMI) is a template for software configuration (Operating System, Application Server, and Applications)</li>
+<li>Instance is a AMI running on virtual servers in the cloud</li>
+<li>Each <em>instance type</em> offers different compute and memory facilities</li>
+</ul>
+<p><img alt="1548006655671" src="../assets/1548006655671.png" /></p>
+<h3 id="using-an-ami">Using an AMI<a class="headerlink" href="#using-an-ami" title="Permanent link">Link</a></h3>
+<p>The following diagram summarizes the AMI lifecycle. After you create and register an AMI, you can use it to launch new instances. (You can also launch instances from an AMI if the AMI owner grants you launch permissions.) You can copy an AMI within the same region or to different regions. When you no longer require an AMI, you can deregister it.</p>
+<p><img alt="The AMI lifecycle" src="../assets/ami_lifecycle.png" /></p>
+<p>You can search for an AMI that meets the criteria for your instance. You can search for AMIs provided by AWS or AMIs provided by the community. For more information, see AMI Types  and Finding a Linux AMI.</p>
+<p>When you are connected to an instance, you can use it just like you use any other server. For information about launching, connecting, and using your instance,</p>
+<h3 id="amazon-linux-2-and-amazon-linux-ami">Amazon Linux 2 and Amazon Linux AMI<a class="headerlink" href="#amazon-linux-2-and-amazon-linux-ami" title="Permanent link">Link</a></h3>
+<p>Amazon Linux 2 and the Amazon Linux AMI are supported and maintained Linux images provided by AWS. The following are some of the features of Amazon Linux 2 and Amazon Linux AMI:</p>
+<ul>
+<li>A stable, secure, and high-performance execution environment for applications running on Amazon EC2.</li>
+<li>Provided at no additional charge to Amazon EC2 users.</li>
+<li>Repository access to multiple versions of MySQL, PostgreSQL, Python, Ruby, Tomcat, and many more common packages.</li>
+<li>Updated on a regular basis to include the latest components, and these updates are also made available in the <strong>yum</strong> repositories for installation on running instances.</li>
+<li>Includes packages that enable easy integration with AWS services, such as the AWS CLI, Amazon EC2 API and AMI tools, the Boto library for Python, and the Elastic Load Balancing tools.</li>
+</ul>
+<h3 id="types-of-images">Types of images<a class="headerlink" href="#types-of-images" title="Permanent link">Link</a></h3>
+<ul>
+<li>Public: an AMI that can be used by anyone.</li>
+<li>Paid: a for-pay AMI that is registered with Amazon DevPay and can be used by anyone who subscribes for it. DevPay allows developers to mark-up Amazon's usage fees and optionally add monthly subscription fees.</li>
+<li>Shared: a private AMI that can only be used by Amazon EC2 users who are allowed access to it by the developer.</li>
+</ul>
+<h2 id="region-and-zones">Region and Zones<a class="headerlink" href="#region-and-zones" title="Permanent link">Link</a></h2>
+<p>Amazon EC2 is hosted in multiple locations world-wide. These locations are composed of regions and Availability Zones. Each <em>region</em> is a separate geographic area. Each region has multiple, isolated locations known as <em>Availability Zones</em>. Amazon EC2 provides you the ability to place resources, such as instances, and data in multiple locations. Resources aren't replicated across regions unless you do so specifically.</p>
+<p>Amazon operates state-of-the-art, highly-available data centers. Although rare, failures can occur that affect the availability of instances that are in the same location. If you host all your instances in a single location that is affected by such a failure, none of your instances would be available.</p>
+<h3 id="region-and-availability-zone-concepts">Region and Availability Zone Concepts<a class="headerlink" href="#region-and-availability-zone-concepts" title="Permanent link">Link</a></h3>
+<p>Each region is completely independent. Each Availability Zone is isolated, but the Availability Zones in a region are connected through low-latency links. The following diagram illustrates the relationship between regions and Availability Zones.</p>
+<p><img alt="              Regions and Availability Zones          " src="../assets/aws_regions.png" /></p>
+<p>Amazon EC2 resources are either global, tied to a region, or tied to an Availability Zone. For more information, see <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/resources.html">Resource Locations</a>.</p>
+<h3 id="regions">Regions<a class="headerlink" href="#regions" title="Permanent link">Link</a></h3>
+<p>Each Amazon EC2 region is designed to be completely isolated from the other Amazon EC2 regions. This achieves the greatest possible fault tolerance and stability.</p>
+<p>When you view your resources, you'll only see the resources tied to the region you've specified. This is because regions are isolated from each other, and we don't replicate resources across regions automatically.</p>
+<p>When you launch an instance, you must select an AMI that's in the same region. If the AMI is in another region, you can copy the AMI to the region you're using. For more information, see <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/CopyingAMIs.html">Copying an AMI</a>.</p>
+<h3 id="availability-zones">Availability Zones<a class="headerlink" href="#availability-zones" title="Permanent link">Link</a></h3>
+<p>When you launch an instance, you can select an Availability Zone or let us choose one for you. If you distribute your instances across multiple Availability Zones and one instance fails, you can design your application so that an instance in another Availability Zone can handle requests.</p>
+<p>You can also use Elastic IP addresses to mask the failure of an instance in one Availability Zone by rapidly remapping the address to an instance in another Availability Zone. For more information, see <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/elastic-ip-addresses-eip.html">Elastic IP Addresses</a>.</p>
+<p>An Availability Zone is represented by a region code followed by a letter identifier; for example, <code>us-east-1a</code>. To ensure that resources are distributed across the Availability Zones for a region, we independently map Availability Zones to names for each AWS account. For example, the Availability Zone <code>us-east-1a</code> for your AWS account might not be the same location as <code>us-east-1a</code> for another AWS account.</p>
+<p>To coordinate Availability Zones across accounts, you must use the <em>AZ ID</em>, which is a unique and consistent identifier for an Availability Zone. For example, <code>use1-az1</code> is an AZ ID for the <code>us-east-1</code>Region and it has the same location in every AWS account.</p>
+<p>Viewing AZ IDs enables you to determine the location of resources in one account relative to the resources in another account. For example, if you share a subnet in the Availability Zone with the AZ ID <code>use-az2</code> with another account, this subnet is available to that account in the Availability Zone whose AZ ID is also <code>use-az2</code>. The AZ ID for each VPC and subnet is displayed in the Amazon VPC console. For more information, see <a href="https://docs.aws.amazon.com/vpc/latest/userguide/vpc-sharing.html">Working with VPC Sharing</a> in the <em>Amazon VPC User Guide</em>.</p>
+<p>As Availability Zones grow over time, our ability to expand them can become constrained. If this happens, we might restrict you from launching an instance in a constrained Availability Zone unless you already have an instance in that Availability Zone. Eventually, we might also remove the constrained Availability Zone from the list of Availability Zones for new accounts. Therefore, your account might have a different number of available Availability Zones in a region than another account.</p>
+<p>You can list the Availability Zones that are available to your account. For more information, see <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-regions-availability-zones.html#using-regions-availability-zones-describe">Describing Your Regions and Availability Zones</a>.</p>
+<h3 id="available-regions">Available Regions<a class="headerlink" href="#available-regions" title="Permanent link">Link</a></h3>
+<p>Your account determines the regions that are available to you. For example:</p>
+<ul>
+<li>An AWS account provides multiple regions so that you can launch Amazon EC2 instances in locations that meet your requirements. For example, you might want to launch instances in Europe to be closer to your European customers or to meet legal requirements.</li>
+<li>An AWS GovCloud (US-West) account provides access to the AWS GovCloud (US-West) region only. For more information, see <a href="https://aws.amazon.com/govcloud-us/">AWS GovCloud (US-West) Region</a>.</li>
+<li>An Amazon AWS (China) account provides access to the Beijing and Ningxia Regions only. For more information, see <a href="https://www.amazonaws.cn/about-aws/china/">AWS in China</a>.</li>
+</ul>
+<p>The following table lists the regions provided by an AWS account. You can't describe or access additional regions from an AWS account, such as AWS GovCloud (US-West) or the China Regions.</p>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>us-east-1</code></td>
+<td>US East (N. Virginia)</td>
+</tr>
+<tr>
+<td><code>us-east-2</code></td>
+<td>US East (Ohio)</td>
+</tr>
+<tr>
+<td><code>us-west-1</code></td>
+<td>US West (N. California)</td>
+</tr>
+<tr>
+<td><code>us-west-2</code></td>
+<td>US West (Oregon)</td>
+</tr>
+<tr>
+<td><code>ca-central-1</code></td>
+<td>Canada (Central)</td>
+</tr>
+<tr>
+<td><code>eu-central-1</code></td>
+<td>EU (Frankfurt)</td>
+</tr>
+<tr>
+<td><code>eu-west-1</code></td>
+<td>EU (Ireland)</td>
+</tr>
+<tr>
+<td><code>eu-west-2</code></td>
+<td>EU (London)</td>
+</tr>
+<tr>
+<td><code>eu-west-3</code></td>
+<td>EU (Paris)</td>
+</tr>
+<tr>
+<td><code>eu-north-1</code></td>
+<td>EU (Stockholm)</td>
+</tr>
+<tr>
+<td><code>ap-northeast-1</code></td>
+<td>Asia Pacific (Tokyo)</td>
+</tr>
+<tr>
+<td><code>ap-northeast-2</code></td>
+<td>Asia Pacific (Seoul)</td>
+</tr>
+<tr>
+<td><code>ap-northeast-3</code></td>
+<td>Asia Pacific (Osaka-Local)</td>
+</tr>
+<tr>
+<td><code>ap-southeast-1</code></td>
+<td>Asia Pacific (Singapore)</td>
+</tr>
+<tr>
+<td><code>ap-southeast-2</code></td>
+<td>Asia Pacific (Sydney)</td>
+</tr>
+<tr>
+<td><code>ap-south-1</code></td>
+<td>Asia Pacific (Mumbai)</td>
+</tr>
+<tr>
+<td><code>sa-east-1</code></td>
+<td>South America (São Paulo)</td>
+</tr>
+</tbody>
+</table>
+<p>For more information, see <a href="https://aws.amazon.com/about-aws/global-infrastructure/">AWS Global Infrastructure</a>.</p>
+<p>The number and mapping of Availability Zones per region may vary between AWS accounts. To get a list of the Availability Zones that are available to your account, you can use the Amazon EC2 console or the command line interface. For more information, see <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-regions-availability-zones.html#using-regions-availability-zones-describe">Describing Your Regions and Availability Zones</a>.</p>
+<h3 id="regions-and-endpoints">Regions and Endpoints<a class="headerlink" href="#regions-and-endpoints" title="Permanent link">Link</a></h3>
+<p>When you work with an instance using the command line interface or API actions, you must specify its regional endpoint. For more information about the regions and endpoints for Amazon EC2, see <a href="https://docs.aws.amazon.com/general/latest/gr/rande.html#ec2_region">Regions and Endpoints</a> in the <em>Amazon Web Services General Reference</em>.</p>
+<p>For more information about endpoints and protocols in AWS GovCloud (US-West), see <a href="https://docs.aws.amazon.com/govcloud-us/latest/UserGuide/using-govcloud-endpoints.html">AWS GovCloud (US-West) Endpoints</a> in the <em>AWS GovCloud (US) User Guide</em>.</p>
+<h3 id="describing-your-regions-and-availability-zones">Describing Your Regions and Availability Zones<a class="headerlink" href="#describing-your-regions-and-availability-zones" title="Permanent link">Link</a></h3>
+<p>You can use the Amazon EC2 console or the command line interface to determine which regions and Availability Zones are available for your account. For more information about these command line interfaces, see <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html#access-ec2">Accessing Amazon EC2</a>.</p>
+<p><strong>To find your regions and Availability Zones using the console</strong></p>
+<ol>
+<li>
+<p>Open the Amazon EC2 console at <a href="https://console.aws.amazon.com/ec2/">https://console.aws.amazon.com/ec2/</a>.</p>
+</li>
+<li>
+<p>From the navigation bar, view the options in the region selector.</p>
+</li>
+</ol>
+<p><img alt="                       View your regions                   " src="../assets/EC2_select_region.png" /></p>
+<ol>
+<li>
+<p>On the navigation pane, choose <strong>EC2 Dashboard</strong>.</p>
+</li>
+<li>
+<p>The Availability Zones are listed under <strong>Service Health</strong>, <strong>Availability Zone Status</strong>.</p>
+</li>
+</ol>
+<p><strong>To find your regions and Availability Zones using the command line</strong></p>
+<ol>
+<li>[AWS CLI] Use the <a href="https://docs.aws.amazon.com/cli/latest/reference/ec2/describe-regions.html">describe-regions</a> command as follows to describe the regions for your account.</li>
+</ol>
+<div class="codehilite"><pre><span></span>aws ec2 describe-regions
+</pre></div>
+
+<ol>
+<li>[AWS CLI] Use the <a href="https://docs.aws.amazon.com/cli/latest/reference/ec2/describe-availability-zones.html">describe-availability-zones</a> command as follows to describe the Availability Zones within the specified region.</li>
+</ol>
+<div class="codehilite"><pre><span></span>aws ec2 describe-availability-zones --region region-name
+</pre></div>
+
+<ol>
+<li>[AWS Tools for Windows PowerShell] Use the <a href="https://docs.aws.amazon.com/powershell/latest/reference/items/Get-EC2Region.html">Get-EC2Region</a> command as follows to describe the regions for your account.</li>
+</ol>
+<div class="codehilite"><pre><span></span>PS C:\&gt; Get-EC2Region
+</pre></div>
+
+<ol>
+<li>[AWS Tools for Windows PowerShell] Use the <a href="https://docs.aws.amazon.com/powershell/latest/reference/items/Get-EC2AvailabilityZone.html">Get-EC2AvailabilityZone</a> command as follows to describe the Availability Zones within the specified region.</li>
+</ol>
+<div class="codehilite"><pre><span></span>PS C:\&gt; Get-EC2AvailabilityZone -Region region-name
+</pre></div>
+
+<h3 id="specifying-the-region-for-a-resource">Specifying the Region for a Resource<a class="headerlink" href="#specifying-the-region-for-a-resource" title="Permanent link">Link</a></h3>
+<p>Every time you create an Amazon EC2 resource, you can specify the region for the resource. You can specify the region for a resource using the AWS Management Console or the command line.</p>
+<p>Note</p>
+<p>Some AWS resources might not be available in all regions and Availability Zones. Ensure that you can create the resources you need in the desired regions or Availability Zone before launching an instance in a specific Availability Zone.</p>
+<p><strong>To specify the region for a resource using the console</strong></p>
+<ol>
+<li>
+<p>Open the Amazon EC2 console at <a href="https://console.aws.amazon.com/ec2/">https://console.aws.amazon.com/ec2/</a>.</p>
+</li>
+<li>
+<p>Use the region selector in the navigation bar.</p>
+</li>
+</ol>
+<p><img alt="                           Use the console region selector                         " src="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/images/EC2_select_region.png" /></p>
+<p><strong>To specify the default region using the command line</strong></p>
+<p>You can set the value of an environment variable to the desired regional endpoint (for example, <code>https://ec2.us-east-2.amazonaws.com</code>):</p>
+<ul>
+<li><code>AWS_DEFAULT_REGION</code> (AWS CLI)</li>
+<li><code>Set-AWSDefaultRegion</code> (AWS Tools for Windows PowerShell)</li>
+</ul>
+<p>Alternatively, you can use the <code>--region</code> (AWS CLI) or <code>-Region</code> (AWS Tools for Windows PowerShell) command line option with each individual command. For example, <code>--region us-east-2</code>.</p>
+<p>For more information about the endpoints for Amazon EC2, see <a href="https://docs.aws.amazon.com/general/latest/gr/rande.html#ec2_region">Amazon Elastic Compute Cloud Endpoints</a>.</p>
+<h3 id="launching-instances-in-an-availability-zone">Launching Instances in an Availability Zone<a class="headerlink" href="#launching-instances-in-an-availability-zone" title="Permanent link">Link</a></h3>
+<p>When you launch an instance, select a region that puts your instances closer to specific customers, or meets the legal or other requirements you have. By launching your instances in separate Availability Zones, you can protect your applications from the failure of a single location.</p>
+<p>When you launch an instance, you can optionally specify an Availability Zone in the region that you are using. If you do not specify an Availability Zone, we select one for you. When you launch your initial instances, we recommend that you accept the default Availability Zone, because this enables us to select the best Availability Zone for you based on system health and available capacity. If you launch additional instances, only specify an Availability Zone if your new instances must be close to, or separated from, your running instances.</p>
+<h3 id="migrating-an-instance-to-another-availability-zone">Migrating an Instance to Another Availability Zone<a class="headerlink" href="#migrating-an-instance-to-another-availability-zone" title="Permanent link">Link</a></h3>
+<p>If you need to, you can migrate an instance from one Availability Zone to another. For example, if you are trying to modify the instance type of your instance and we can't launch an instance of the new instance type in the current Availability Zone, you could migrate the instance to an Availability Zone where we can launch an instance of that instance type.</p>
+<p>The migration process involves creating an AMI from the original instance, launching an instance in the new Availability Zone, and updating the configuration of the new instance, as shown in the following procedure.</p>
+<p><strong>To migrate an instance to another Availability Zone</strong></p>
+<ol>
+<li>Create an AMI from the instance. The procedure depends on the operating system and the type of root device volume for the instance. For more information, see the documentation that corresponds to your operating system and root device volume:</li>
+<li><a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/creating-an-ami-ebs.html">Creating an Amazon EBS-Backed Linux AMI</a></li>
+<li><a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/creating-an-ami-instance-store.html">Creating an Instance Store-Backed Linux AMI</a></li>
+<li><a href="https://docs.aws.amazon.com/AWSEC2/latest/WindowsGuide/Creating_EBSbacked_WinAMI.html">Creating an Amazon EBS-Backed Windows AMI</a></li>
+<li>If you need to preserve the private IPv4 address of the instance, you must delete the subnet in the current Availability Zone and then create a subnet in the new Availability Zone with the same IPv4 address range as the original subnet. Note that you must terminate all instances in a subnet before you can delete it. Therefore, you should create AMIs from all the instances in your subnet so that you can move all instances in the current subnet to the new subnet.</li>
+<li>Launch an instance from the AMI that you just created, specifying the new Availability Zone or subnet. You can use the same instance type as the original instance, or select a new instance type. For more information, see <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-regions-availability-zones.html#using-regions-availability-zones-launching">Launching Instances in an Availability Zone</a>.</li>
+<li>If the original instance has an associated Elastic IP address, associate it with the new instance. For more information, see <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/elastic-ip-addresses-eip.html#using-instance-addressing-eips-associating-different">Disassociating an Elastic IP Address and Reassociating with a Different Instance</a>.</li>
+<li>If the original instance is a Reserved Instance, change the Availability Zone for your reservation. (If you also changed the instance type, you can also change the instance type for your reservation.) For more information, see <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ri-modifying.html#ri-modification-process">Submitting Modification Requests</a>.</li>
+<li>
+<p>(Optional) Terminate the original instance. For more information, see <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/terminating-instances.html#terminating-instances-console">Terminating an Instance</a>.</p>
+</li>
+<li>
+<p>Amazon have data centers in different region across the globe</p>
+</li>
+<li>An instance can be launched in different regions depending on the need.</li>
+<li>Closer to specific customer</li>
+<li>To meet legal or other requirements</li>
+<li>Each region has set of zones</li>
+<li>Zones are isolated from failure in other zones</li>
+<li>Inexpensive, low latency connectivity between zones in same region</li>
+</ol></div>
+        
+        
+    </div>
+
+    <footer class="col-md-12 text-center">
+        
+        <hr>
+        <p>
+        <small>Copyright &copy; 2019 Vinod Sharma<br></small>
+        
+        
+
+        
+        
+    </footer>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="../../js/bootstrap-3.0.3.min.js"></script>
+    <script src="../../js/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script>
+    var base_url = '../..';
+    </script>
+    <script src="../../js/base.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+    <script src="../../search/main.js"></script>
+
+    <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span aria-hidden="true">&times;</span>
+                        <span class="sr-only">Close</span>
+                    </button>
+                    <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        From here you can search these documents. Enter your search terms below.
+                    </p>
+                    <form role="form">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query">
+                        </div>
+                    </form>
+                    <div id="mkdocs-search-results"></div>
+                </div>
+                <div class="modal-footer">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </body>
+
+</html>
