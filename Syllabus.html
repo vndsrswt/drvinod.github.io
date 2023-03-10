@@ -1,0 +1,825 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Rajasthan General Awareness - Rajasthan</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body>
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var html = document.querySelector('html');
+            var sidebar = null;
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded "><a href="2017December.html"><strong aria-hidden="true">1.</strong> 2017</a></li><li class="chapter-item expanded "><a href="99.References.html"><strong aria-hidden="true">2.</strong> References</a></li><li class="chapter-item expanded "><a href="Festival.html"><strong aria-hidden="true">3.</strong> Festival</a></li><li class="chapter-item expanded "><a href="History.html"><strong aria-hidden="true">4.</strong> इतिहास </a></li><li class="chapter-item expanded "><a href="IT.html"><strong aria-hidden="true">5.</strong> IT</a></li><li class="chapter-item expanded "><a href="Point01.html"><strong aria-hidden="true">6.</strong> Important Point</a></li><li class="chapter-item expanded "><a href="Rajasthan 2018.html"><strong aria-hidden="true">7.</strong> Rajasthan 2018</a></li><li class="chapter-item expanded "><a href="Syllabus.html" class="active"><strong aria-hidden="true">8.</strong> Rajasthan General Awareness</a></li><li class="chapter-item expanded "><a href="राजस्थान के इतिहास जनने के तरीके.html"><strong aria-hidden="true">9.</strong> राजस्थान के इतिहास को जानने के तरीके</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Rajasthan</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="rajasthan-general-awareness"><a class="header" href="#rajasthan-general-awareness">Rajasthan General Awareness</a></h1>
+<h2 id="syllabus"><a class="header" href="#syllabus">Syllabus</a></h2>
+<p><strong>Geographical, Historical, Cultural and General Knowledge of Rajasthan</strong></p>
+<p>Location, extent, relief features, climate, drainage, vegetation, agriculture, livestock, dairy development, population distribution, growth, literacy, sex ratio, religious composition, industries, planning, budgetary trends, major tourist centers.</p>
+<p>Ancient Culture  &amp; Civilisation of Rajasthan, Kalibangan, Ahar, Ganeshwar, Bairath.</p>
+<p>History of Rajasthan from  8th to 18th Century</p>
+<ol>
+<li>
+<p>Gurjar Pratihars</p>
+</li>
+<li>
+<p>Chauhans of Ajmer</p>
+</li>
+<li>
+<p>Relations with Delhi Sultanate – Mewar, Ranthambore and Jalore.</p>
+</li>
+<li>
+<p>Rajasthan and Mughals – Sanga, Pratap, Mansingh of Amer, Chandrasen, Rai Singh of Bikaner, Raj   singh of Mewar.</p>
+</li>
+<li>
+<p>History of freedom struggle in Rajasthan</p>
+</li>
+<li>
+<p>Peasants and Tribal Movements.</p>
+</li>
+<li>
+<p>Prajamandal Movement.</p>
+</li>
+<li>
+<p>Integration of Rajasthan</p>
+</li>
+<li>
+<p>Role of women during Medieval and Modern period.</p>
+<p>Society and Religion</p>
+<ol>
+<li>Lok Devata and Devian.</li>
+<li>Saints of Rajasthan.</li>
+<li>Architecture – Temples, Forts and Palaces.</li>
+<li>Paintings – Various Schools.</li>
+<li>Fairs and Festivals.</li>
+<li>Customs, Dresses and Ornaments.</li>
+<li>Folk Music and Dance.</li>
+</ol>
+</li>
+<li>
+<p>Language and Literature
+Office of Governor; Role and Functions of Chief Minister and Cabinet; State 
+Secretariat and Chief Secretary; Organization and role of the Rajasthan Public Service Commission and State Human Rights Commission, Panchayati Raj in Rajasthan.</p>
+</li>
+</ol>
+<p><strong>Current Affairs of Rajasthan</strong>
+Major current issues and happenings at state level related to socio-economic, political, games and sports aspects.</p>
+<ol start="3">
+<li>General Knowledge of World &amp; India – Continents, Oceans and their characteristics, global wind system, environmental problems, global strategies, globalization and its impacts, population trend and distribution, India and U.N.O., Major trends in International policies with special reference to Globalization and Nuclear nonproliferation.
+India
+Location and its advantages, Monsoonal system, drainage characteristics, changing patterns of agriculture and industries, national income-concept &amp; trends, poverty, reduction schemes, Features of India’s foreign policy, Nehru’s contribution in its making. Major Landmarks in the Constitutional History of India with special reference to 
+Government of India Acts of 1919 and 1935; Gandhi’s contribution to National Movement; 
+Ambedkar and Constitution; Making; Salient features of Indian Constitution, Fundamental Rights, Duties and Directive Principles of State Policy; offices of the Indian President and Prime Minister; India’s federal system; Major Political Parties. </li>
+<li>Educational Psychology –</li>
+<li>Educational Psychology – its meaning, scope and implications for teacher in classroom situations. Various psychologists and their contributions in education.</li>
+<li>Learning – its meaning and types, different theories of learning and implications for a teacher, transfer of learning, factors affecting learning, constructivist learning.</li>
+<li>Development of learner – Physical, emotional and social development, development of child as an individual- concept development.</li>
+<li>Personality – meaning, theories and assessment, adjustment and its mechanism, maladjustment.</li>
+<li>Intelligence and creativity – meaning, theories and measurement, role in learning, emotional intelligence- concept and practices, human cognition.</li>
+<li>Motivation – meaning and role in the process of learning, achievement motivation.</li>
+<li>Individual differences – meaning and sources, Education of children with special needs – Gifted and talented students, slow learners, delinquency.</li>
+<li>Development and implications in education of – Self concept, attitudes, interest, habits, aptitude and social skills.</li>
+</ol>
+<p>Note :- Pattern of Question Paper 1. Objective type paper 2. Maximum Marks : 100 3. Number of Questions : 100 4. Duration of Paper : Three Hours 5. All questions carry equal marks. 6. There will be Negative Marking.</p>
+<ol>
+<li>
+<p>History, Art, Culture, Literature and Heritage of Rajasthan Ancient Civilizations of Rajasthan and its major sites. 
+Major dynasties of Rajasthan and its rulers through the Ages and their cultural achievements (1000-1800 A.D.).
+Political resistance of Rajput rulers against Muslim Power. 
+Bhakti Movement and Sufism in Medieval Rajasthan, Saints and Sects.
+Folk gods and goddesses.
+Political Awakening and Freedom Movement in Rajasthan:1857, Peasant and Tribal Movements, Prajamandal Movements, Contribution of Women in Social and Political awakening.
+Folk Culture: Fairs and Festivals, Different Schools of Painting, Folk Tales and Gathas, Folk Songs, Folk Dances, Folk Music and Instruments.
+Dress and Ornaments, Handicrafts
+Rajasthani Language: Origin and Development.
+Main Dialects and Region.
+Rajasthani Scripts: Mudia and Devnagari.
+Rajasthani Literature:
+Its Evolution.
+Early Period
+Pre-Medieval Period
+Post- Medieval Period 
+Modern Period
+Famous Writers and their Works.
+Tourism and Rajasthan: Heritage, Tourism Policy and Vision.</p>
+</li>
+<li>
+<p>Geography of Rajasthan</p>
+</li>
+<li>
+<p>Physical features, Geological structure, Drainage system and Geographical regions</p>
+</li>
+<li>
+<p>Climate, Natural vegetation, Soil resources, minerals and Power resources 3. Population- Characteristics, Live-Stock and Fisheries, Wildlife and Biodiversity.</p>
+</li>
+<li>
+<p>Agriculture, Irrigation system and Irrigation-Projects, Industries and Industrial Development.</p>
+</li>
+<li>
+<p>Special Area Development Programmes, Drought and Famines, Desertification Hazard in Rajasthan</p>
+</li>
+<li>
+<p>Political and Administrative System of Rajasthan</p>
+</li>
+<li>
+<p>Governor, Chief Minister and Council of Ministers</p>
+</li>
+<li>
+<p>State Legislative Assembly, High Court and Judicial System of Rajasthan</p>
+</li>
+<li>
+<p>Rajasthan Public Service Commission, State Election Commission, State Finance 
+Commission, State Human Rights Commission, State Commission for Women, State Information Commission, Lokayukta and Auditor General</p>
+</li>
+<li>
+<p>Chief Secretary, Government Secretariat, Chief Minister’s Office (CMO), Divisional Commissioner, District Administration, Panchayati Raj Institutions and Local- Self Government</p>
+</li>
+<li>
+<p>Government Policies and Developmental Programmes, Legal Rights, Citizen Charters, Social Audit</p>
+</li>
+<li>
+<p>Economy of Rajasthan</p>
+</li>
+<li>
+<p>Rajasthan Economy- Characteristics, compositional trend of SDP, Occupational Distribution.</p>
+</li>
+<li>
+<p>Major Issues
+Agriculture Sector- Major Rabi and Kharif Crops, Irrigated and NonIrrigated 
+Area, Land Holding
+Industrial Sector- obstacles, role and problems of Small-Scale Industries, State Public Enterprises, SEZ, RIICO, RFC.
+Service Sector- Child Education, Health Programmes, Mid-Day Meal 
+Programme, Banking and Insurance Services, Out sourcing, Agriculture and Industrial Finance, Agricultural Insurance</p>
+</li>
+<li>
+<p>Growth, Development and Planning- State Five Year Plans, State Budget, State Planning Board, Growth Rate of Agriculture, Industrial and Service Sector, Use of Renewable Resources, Resurgent Rajasthan.</p>
+</li>
+<li>
+<p>Major Development Projects- State River Valley Projects, other State’s River Valley Projects for Rajasthan, D.F.C.C., Rural Electrification, Rural Roads Development Programmes, National Highways and State Highways, Power Projects, Projects financed by Foreign Institutions</p>
+</li>
+<li>
+<p>Programmes and Schemes of Government for Economically and Socially Backward 
+Classes, Disabled Persons, Old Aged People, Women Empowerment and Child Development</p>
+</li>
+<li>
+<p>Contemporary Events
+Major Contemporary events and issues of Rajasthan.
+Persons and Places in News. Sports and Games. 
+Note :- Pattern of Question Paper 1. Objective type paper 2. Maximum Marks : 50 3. Number of Questions : 100 4. Duration of Paper : Two Hours 5. All questions carry equal marks. 6. There will be Negative Marking.</p>
+</li>
+<li>
+<p>Indian History and Culture</p>
+</li>
+<li>
+<p>Indian Culture &amp; Heritage: Visual and Performing Arts- Painting, Sculpture, Architecture, Dance forms and Music traditions- from Indus to End of British Era. Literary traditions of India from Vedic to close of 19th Century.</p>
+</li>
+<li>
+<p>History of Freedom Movement from mid of 19th Century: Struggle of 1857, 
+Emergence of Indian National Congress and the contribution of Moderates and Extremists, Various Revolutionaries of 20th Century and their activities, Gandhian Movements and the role of Subhash Chandra Bose.</p>
+</li>
+<li>
+<p>History and Culture of Rajasthan</p>
+</li>
+<li>
+<p>Archaeological Sites of Ancient Rajasthan: Bagore, Ganeshwar, Ahar, Kalibangan and Bairath.</p>
+</li>
+<li>
+<p>Major Dynasties of Rajasthan and their prominent rulers: Imperial Pratiharas, Sisodias of Mewar, Rathores of Marwar, Kachchwahas of Amber.</p>
+</li>
+<li>
+<p>Freedom Struggle in Rajasthan: Struggle of 1857, Political Awakening in Rajasthan, Revolutionaries, Peasant Movements, Tribal Movements and Prajamandal Movements. Integration of Rajasthan.</p>
+</li>
+<li>
+<p>Saints and Sects through the ages- Jasnathji, Jambhoji, Dadudayal, Ramsnehi Sect and various Vaishnav Sects. Folk Deities of rajasthan.</p>
+</li>
+<li>
+<p>Society of Rajasthan: Traditions, Dress and Ornaments, Fairs &amp; Festivals.</p>
+</li>
+<li>
+<p>Folk Culture- Dances, Dramas, Literature, Music &amp; Musical Instruments.</p>
+</li>
+<li>
+<p>Schools of Painting, Temple &amp; Fort Architecture, Handicrafts.</p>
+</li>
+<li>
+<p>Rajasthani language and Dialects, Literature of Rajasthani Language.</p>
+</li>
+<li>
+<p>Important historical tourist places</p>
+</li>
+<li>
+<p>Indian Geography</p>
+</li>
+<li>
+<p>Physical Features- Mountain, Plateau, Plains.</p>
+</li>
+<li>
+<p>Climate - Mechanism of Monsoon, Distribution of Rainfall</p>
+</li>
+<li>
+<p>Natural Vegetation- Types and their Conservation</p>
+</li>
+<li>
+<p>Environmental Concerns- Deforestation, Soil Erosion, Drought and Floods.</p>
+</li>
+<li>
+<p>Geography of Rajasthan</p>
+</li>
+<li>
+<p>Physiographic Divisions, Rivers and Lakes, </p>
+</li>
+<li>
+<p>Climate and Agro- Climate Regions.</p>
+</li>
+<li>
+<p>Resources &amp; their Conservation- Water, Forest, Soil</p>
+</li>
+<li>
+<p>National Parks, Sanctuaries and Conservation Reserve</p>
+</li>
+<li>
+<p>Minerals: Metallic and Non-Metallic</p>
+</li>
+<li>
+<p>Power Resources: Renewable and Non-Renewable</p>
+</li>
+<li>
+<p>Population: Growth, Density, Distribution, Sex-Ratio, Literacy.</p>
+</li>
+<li>
+<p>Indian Economy</p>
+</li>
+<li>
+<p>GNP, GDP, Per Capita Income, HDI</p>
+</li>
+<li>
+<p>Population :- Occupational Structure, Population Growth Rate</p>
+</li>
+<li>
+<p>Agriculture :- Land Utilisation, Major Crops, Organic Farming</p>
+</li>
+<li>
+<p>Major Industries of India :- Textile, Petroleum, Cement, Food Processing, Role of Forest based small and cottage industries</p>
+</li>
+<li>
+<p>Financial Inclusion :- Pradhan Mantri Jan Dhan Yojna, Pradhan Mantri Mudra Yojna. Niti Aayog, GST, Global Warming, Green House Effect.</p>
+</li>
+<li>
+<p>Economy of Rajasthan</p>
+<ol>
+<li>SDP, Economic Growth Rate as per GSDP, Sectoral Contribution Major Agriculture Crops, Horticulture, Major Irrigation Projects, Live Stock, Agro Food Parks, Forestry.</li>
+<li>Role of BIP, RIICO, RFC &amp; SEZ in industrial development</li>
+</ol>
+</li>
+<li>
+<p>Major Power Resources :- Thermal, Solar and Atomic, Petroleum Oil Fields.</p>
+</li>
+<li>
+<p>Poverty and Unemployment Eradication schemes, Schemes of Social Justice &amp; Women Empowerment.</p>
+</li>
+<li>
+<p>Current Affairs</p>
+<ol>
+<li>Major Current Events and Issues of State (Rajasthan), National and International Importance.</li>
+<li>Persons and Places in recent news</li>
+<li>Games and Sports related Activities</li>
+</ol>
+</li>
+</ol>
+<p>भारत और राजस्थान से संभंदित सामान्य ज्ञान तथा समसायिक मामले, सूचना प्रोधोगिकी के क्षेत्र में मुख्या विकास|</p>
+<h2 id="references"><a class="header" href="#references">References</a></h2>
+<ol>
+<li>https://onlinetyari.com/hindi/question-categories/rajasthan-geography-questions-i47.html</li>
+<li>http://www.dipr.rajasthan.gov.in/content/dipr/en.html</li>
+<li>http://www.dipr.rajasthan.gov.in/content/dipr/en/webcast.html</li>
+<li>Sujas Patrika</li>
+<li>http://www.rajras.in/index.php</li>
+<li>https://www.rajasthangyan.com/rajasthan?nid=43</li>
+<li>http://www.jepybhakar.com/2018/02/model-paper-7-answer.html</li>
+<li>http://www.rajassembly.nic.in/</li>
+<li>https://www.toppersexam.com/STATE-LEVEL-EXAMS/RAJASTHAN-INFORMATICS-ASSISTANT-(SUCHANA-SAHAYAK)-EXAM/question-bank_786.html</li>
+<li>http://www.rajasthanstudies.com/p/blog-page_15.html</li>
+</ol>
+<p>http://www.rasfreenotes.in/rajasthan-gk/rajasthan-geography/non-conventional-energy-resources-of-rajasthan-for-ras-rts-exams/
+http://rajasthangk.com/gk-rajasthan-general-knowledge/5-first-in-rajasthan</p>
+<p>http://www.developindiagroup.co.in/Previous%20Year%20Question%20Paper/</p>
+<p>https://www.quora.com/What-books-are-useful-for-preparing-for-RAS</p>
+<p>https://en.wikipedia.org/wiki/Outline_of_Rajasthan</p>
+<p>http://www.ignca.nic.in/coilnet/st_raj01.htm
+http://bestgknotes2013.blogspot.in/2013/12/rajasthan-gk-in-hindi.html</p>
+<p>RAJASTHAN KA BHUGOL (GEOGRAPHY OF RAJASTHAN)-
+1.DR.L.R. BHALLA,
+2.RAJASTHAN SAHITYA AKADMI PUBLICATION,
+3.LAKHYA PUBLICATION
+4.RAJASTHAN STUDIES SCHOOL BOOKS</p>
+<p>RAJASTHAN KA ITIHAS (HISTORY OF RAJASTHAN)-
+1.GOPINATH SHARMA,
+2.RAJASTHAN SAHITYA AKADMI PUBLICATION,
+3.LAKHYA PUBLICATION
+4.RAJASTHAN STUDIES SCHOOL BOOKS</p>
+<p>RAJASTHAN KI ARTHVYAVASTHA (ECONOMY OF RAJASTHAN)-
+1.LAXMINARAYAN NATHURAMKA
+2.LAKHYA PUBLICATION
+3.RAJASTHAN STUDIES SCHOOL BOOKS
+4.WEBSITE OF RAJTOURISM, RAJCENSUS,RAJPOWER,RAJAGRICULTURE AND OTHER DEPARTMENTS OF GOVT. OF RAJASTHAN FOR LATEST TOPIKS OF  ECONOMICS </p>
+<p>BHARTIYA ITIHAS(INDIAN HISTORY)
+1.PRTIYOGITA DARPAN EXTRA EDITION OF HISTORY
+2.MODERN INDIA BY B.L. GROVER, VIPIN CHANDRA 
+3.NCERT 12TH CLASS HISTORY PART-I,II,III ALL
+4.CRONICAL HISTORY etc.</p>
+<p>GEOGREPHY(BHUGOL)
+1.MAHESH KUMAR VARNBAL
+2.NCERT 11TH CLASS ALL BOOKS
+3.NCERT 12TH CLASS ALL BOOKS
+4.BHARAT KA BHUGOL BY -KHULLAR
+5.VISHVA KA BHUGOL &amp; BHOTIK BHUGOL BY SAVINDRA SINGH</p>
+<p>ECONOMICS(ARTHSHASHTRA)
+1.LAL &amp; LAL INDIA AND BASICS OF ECONOMICS
+2.BHARTIYA ARTHVAYAVASTHA BY DATT SUNDARAM
+3.PARTIYOGITA DARPAN EXTRA EDITION</p>
+<p>SCIENCE AND TECHNOLOGY
+1.VIGYAN PRAGATI &amp; AAWISHKAR BOOKS OF MINISTRY
+2. NCERT CLASS 7 to 10 SCIENCE TEXTBOOKS
+3.SPECTRUM`S BOOK ON SCIENCE AND TECHNOLOGY
+4.SUGGESTED WEBSITE CLICK  Mrunal.org/snt http://...</p>
+<p>ANKGANIT(NUMERIC GEN. MATHS)
+1.R.S. AGRWAL-S.CHAND PUBLICATION
+2.QUIKER MATHS
+3.HERALD MATHS
+4.KIRAN PUBLICATION MATHAMATICS</p>
+<p>SAMANYA TARKSHAKTI(GEN INTELLIGENCE &amp; REASONING)
+1.TMH.GEN INTT. FOR C-SAT
+2.ARIHANT PUBLICATION BOKKS 
+3.KIRAN PUBLICATION BOOKS
+4.HERALD REASONING ABILITY
+5.R.S. AGRWAL CHPTER 1,3,4,5,7,10,14,16,&amp;NON VERBAL</p>
+<p>SANVIDHAN AVM RAJVYAVASTHA(CONSTITUTION&amp;INDIAN POLITY)
+1.DD BASU
+2.SHUBHASH KASHYAP
+3.BL FADIYA
+4.PRTIYOGITA SAHITYA PUBLICATION BOOKS
+5.EXTRA EDITION OF P.D.</p>
+<p>CURRUNT AFFAIRS AND AWAIRENESS
+1.PATIYOGITA DARPAN EXTRA EDITION
+2.MONTHLY EDITION OF  P.D. &amp; CRONICLE
+3.BHARAT 2013 (INDIA 2013)
+4.RAJASTHAN CURRENT GK BOOKS OF BHALLA,RAI,FIRST RANK,LAKHYA etc.MONTHLY EDITION </p>
+<p>book for complete syllabus -all in one
+1.  raj penorama Ist
+raj penorama IInd
+Author-H.D.Singh
+2.Lakshya rajasthan I-Itihas , bhugol , rajneeti vigyan
+lakshya rajasthan II-arthshastra , ganit ,tarkshakti ,vigyan avm prdhogiki
+lakshya rajasthan III-rajasthan ka bhugol ,arthshastra,ithas avm sanskriti
+(good books i am also reading lakhsya books now for refreshing all subjects)</p>
+<p>for current affairs of rajasthan please read penorama now awailable in market
+Written Jul 14</p>
+<p>BOOKS :
+i. Rajasthan Culture by Jai Singh Niraj
+ii. Rajasthani History by Kalu Ram Sharma.
+iii. Lakshya series</p>
+<p>The state administration ,b.l fadiya </p>
+<p>How To Prepare For RAS Pre?</p>
+<p>Rajasthan Public Service Commission(RPSC) is conducting the RAS(Rajasthan Admistrative Service) exam 2013 on 26th October as per the latest notification from RPSC NOTIFICATION.</p>
+<p>Based upon the new pattern of RAS under which a single paper is conducted.</p>
+<p>The RAS Prelims Examination consists of one paper on the subject General Knowledge and General Science, which will be of Purely objective type and carry weightage of 200 marks. The paper will have 150 questions carrying equal marks each. Also there will be 1/3 negative marking for each wrong answer. The maximum time for the examination will be 3 hrs. The examination is meant to serve as a screening test only. The Standard of the paper will be that of a Bachelor’s Degree Level.
+SYLLABUS</p>
+<p>The Paper will test candidates on the knowledge in the following areas :</p>
+<ol>
+<li>History, Art, Culture, Literature, Tradition &amp; Heritage of Rajasthan </li>
+<li>Indian History </li>
+<li>Geography of World and India </li>
+<li>Geography of Rajasthan </li>
+<li>Indian Constitution, Political System &amp; Governance </li>
+<li>Political and Administrative System of Rajasthan </li>
+<li>Economic Concepts and Indian Economy </li>
+<li>Economy of Rajasthan </li>
+<li>Science &amp; Technology </li>
+<li>Reasoning &amp; Mental Ability </li>
+<li>Current Affairs </li>
+</ol>
+<p>To view detailed syllabus please visit Rajasthan Public Service Commission’s Website or the link below</p>
+<p>RAS Pre English Version</p>
+<p>WHERE TO START?</p>
+<p>Go through the syllabus before creating the heap of books. the link is been mentioned Above.
+Motivate yourself and manage the time to study hard
+Make time table when and where you have to study
+Don't Panic. keep your focus on karma Or STRATEGIC KARMA(SMART WORK).
+Study Regularly. but don't keep yourself locked in a box. free yourself once in a week.
+As it is a prelims exam, so your strategy to avoid reading theories and thesis. Study in points. and one way to study in point is to study and make your notes in points methodology.
+if you done with any topic, Solve the objective questions.
+Read regular newspaper for 15-25 minutes. for English, I recommend THE HINDU. for Hindi, I recommend RAJASTHAN PATRIKA.
+Subscribe to weekly or Monthly magazine issue like CIVIL SERVICE CHRONICLE / Pratyogita Darpan.
+Keep your concentration on Concept, Don't mug up things. As the new pattern is very long and less time. so, keep your focus on concept cause it will be saved in minds and won't confuse you.
+Make your notes. Don't Rely on other's notes
+make charts/ diagrams to sharpen up your memory and concepts
+Go through employment news every weekend
+And Don't under confident and over-confident yourself!! </p>
+<ol>
+<li>History, Art, Culture, Literature, Tradition &amp; Heritage of Rajasthan</li>
+</ol>
+<p>Syllabus : 
+Salient features of Architecture – Forts and Monuments
+Arts, Paintings and Handicrafts.
+Fairs, Festivals, Folk Music and Folk Dances.
+Rajsathani Culture, Traditions and Heritage.
+Important Tourist Places.
+Major Landmarks in the History of Rajasthan, Major Dynasties, their Administrative and Revenue System. Socio-cultural Issues.
+Freedom Movement , Political Awakening and Integration
+Religious Movements, Saints&amp; Lok devtas of Rajasthan.
+Leading Personalities of Rajasthan.
+Important Works of Rajasthani literature. Local Dilects</p>
+<p>Firstly, Go through the base. 
+Study the books of Rajasthan board from 9th to 12th of Rajasthan history / geography / Social Science. Don't buy them, burrow it from anybody 1-by-1.
+Don't create heap of these books. if you're done with one burrow another. 
+you can download these books from http://rajeduboard.rajasthan.gov.in/books/index.htm</p>
+<p>you can skip this step and read the standard books. </p>
+<p>BOOKS :
+i. Rajasthan Culture by Jai Singh Niraj
+ii. Rajasthani History by Kalu Ram Sharma.
+iii. Lakshya series</p>
+<p>And Go through the official Rajasthan website that will help you : http://rajasthan.gov.in/</p>
+<ol start="2">
+<li>Indian History </li>
+</ol>
+<p>Syllabus :</p>
+<p>Ancient &amp; Medieval Period:
+Salient features and Major Landmarks of Ancient and Medieval India
+Art, Culture, Literature and Architecture.
+Major Dynasties, Their Administrative System. Socio-Economic Conditions, Prominent Movements.
+Modern Period:</p>
+<p>Modern Indian history (from about the middle of the eighteenth century until the present)- significant events, personalities and issues.
+The Freedom Struggle &amp; Indian National Movement- its various stages and important contributors and contributions from different parts of the country.
+Social and Religious Reform movements in the 19th and 20th century.
+Post-independence consolidation and reorganization within the country.</p>
+<p>Start with reading the base books That is NCERT from class 6th to 12th. that will put foundation to your concept.
+you can download these books from : http://www.ncert.nic.in/ncerts/textbook/textbook.htm</p>
+<p>and Aware to study as per as syllabus. don't Study outside it. so, i recommend you to mark the index what you have to study. or you can skip this step.</p>
+<p>Then move to Standard books, i recommend :</p>
+<p>ANCIENT : </p>
+<ol>
+<li>Wonder that was India - A.L. Bhashem.</li>
+<li>Ancient India - an introductory outline - D.N.Jha</li>
+<li>NCERT</li>
+</ol>
+<p>MODERN HISTORY: &quot;A BRIEF HISTORY OF MODERN INDIA&quot; by Spectrum publication. they also publish book for Hindi medium as  &quot;Adhunik bharat ka itehass&quot; </p>
+<ol start="3">
+<li>Geography of World and India &amp; 4. Geography of Rajasthan
+SYLLABUS :</li>
+</ol>
+<p>World Geography:
+Broad Physical features.
+Environmental and Ecological Issues.
+Wildlife and Bio-diversity.
+International Waterways.
+Major Industrial Regions.
+Geography of India:
+Broad physical features and Major physiographic divisions.
+Agriculture and Agro based Activities.
+Minerals – Iron, Manganese, Coal, Oil &amp; Gas, Atomic minerals.
+Major Industries and Industrial development.
+Transportation– major transport corridors.
+Natural Resources.
+Environmental Problems and Ecological Issues.
+Geography of Rajasthan:
+Broad physical features and Major physiographic divisions.
+Natural Resource of Rajasthan-
+Climate, Natural Vegetation, Forests, Wildlife and Bio-diversity
+Major irrigation projects.
+Mines and Minerals.
+Population.
+Major Industries and Potential for Industrial Development
+BOOKS : I Recommend you to read NCERT books. the best option!
+Also refer to the NIOS (National institute for open schooling.)
+Contemporary Rajasthan by L.R.Bhalla</p>
+<p>Go through govt. websites and prepare notes:</p>
+<p>http://rajasthan.gov.in
+http://www.rajcensus.gov.in/Pe_DATA.html
+http://www.rajasthanwildlife.in/
+http://www.dmg-raj.org/
+http://rajforest.nic.in/?q=national-parks-and-sanctuaries-in-rajasthan
+http://www.rrecl.com/Solar1.aspx</p>
+<ol start="5">
+<li>
+<p>Indian Constitution, Political System &amp; Governance 
+SYLLABUS :
+The prelims is been divided into three parts:
+Indian Constitution related conventional topics  e.g. Government of India Acts: 1919 and 1935, Nature of Indian Constitution; Preamble, Fundamental Rights, Directive Principles of State, Fundamental Duties, Federal Structure, Constitutional Amendments, etc.
+Indian Political System and Governance e.g. CVC, NHRC etc.
+BOOKS :
+Indian polity / Bharat ki rajyavyavastha by M. Laxmikant</p>
+</li>
+<li>
+<p>Political and Administrative System of Rajasthan
+SYLLABUS : 
+Rajasthan state related polity e.g. CM, state assembly, HC etc</p>
+</li>
+</ol>
+<p>BOOKS :
+Indian polity / Bharat ki rajyavyavastha by M. Laxmikant</p>
+<ol start="7">
+<li>Economic Concepts and Indian Economy 
+SYLLABUS :</li>
+<li>Basic concepts</li>
+<li>Indian Economy : It Includes Economic Development &amp; Planning, Human Resource and Economic Development, Social Justice and Empowerment.
+BOOKS : </li>
+<li>NCERT 11th and 12th</li>
+<li>Indian Economy / Bhartiye Arthvyavastha by RAMESH SINGH</li>
+<li>MAG book / Economic issue of Pratyogita Darpan</li>
+<li>Economy of Rajasthan 
+SYLLABUS :
+Macro overview of Economy.
+Major Agricultural, Industrial and Service Sector Issues.
+Growth, Development and Planning.
+Infrastructure &amp; Resources.
+Major Development Projects.
+Programmes and Schemes</li>
+</ol>
+<p>BOOKS :
+Economy of Rajasthan by Laxminarayan Nathuramka
+Rajasthan official Website www.rajasthan.gov.in (you'll find every aspect of syllabus there)</p>
+<ol start="9">
+<li>
+<p>Science &amp; Technology 
+Basics of Everyday Science.
+Electronics, Computers, Information and Communication Technology.
+Space Technology including Satellites.
+Defence Technology.
+Nanotechnology.
+Human body, Food and Nutrition, Health care.
+Environmental and Ecological Changes and its Impacts.
+Biodiversity, Biotechnology and Genetic Engineering.
+Agriculture, Horticulture, Forestry and Animal Husbandry with special reference to Rajasthan.
+Development of Science and Technology in Rajasthan
+BOOKS :
+NCERT 6th - 10th download it from  http://www.ncert.nic.in/ncerts/textbook/textbook.htm
+Spectrum’s book on Science and Technology/ Vigyan Evum Prodhyogiki. </p>
+</li>
+<li>
+<p>Reasoning &amp; Mental Ability
+SYLLABUS : divided into three parts :</p>
+</li>
+<li>
+<p>Logical Reasoning (Deductive, Inductive, Abductive)</p>
+</li>
+<li>
+<p>Mental Ability</p>
+</li>
+<li>
+<p>Basic Numeracy</p>
+</li>
+</ol>
+<p>BOOKS :
+A modern Approach to verbal and Non-Verbal reasoning by R S Agarwal.
+I recommend to avoid wasting much time in doing all problems. just gain the concept and tricks to solve it.
+And mark the chapters that are included in the syllabus. 
+practice all variety of questions as solve the IBPS/bank PO previous papers.</p>
+<ol start="11">
+<li>Current Affairs
+SYLLABUS :
+Major Current Events and Issues of State(Rajsathan), National and International Importance
+Persons and Places in reccent news
+Games and Sports related Activities
+BOOKS :</li>
+</ol>
+<ul>
+<li>Read magazines like CST, Chronicle , pratyogita darpan</li>
+<li>give atleast 15 minutes of everyday in reading newspaper.</li>
+</ul>
+<p>LINKS THAT WILL HELP YOU :</p>
+<p>http://india.gov.in/
+http://rajasthan.gov.in/</p>
+<p>rpsc.rajasthan.gov.in</p>
+<p>www.ncert.nic.in/ncerts/textbook/textbook.htm</p>
+<p>http://mrunal.org/</p>
+<p>NIOS MATERIAL (https://files.secureserver.net/0fdAWETp4sONW5)</p>
+<p>DISCLAIMER : This is all my personal views, if you have any query, you can Ask in comments. happy Reading! Share to your Social network so that it help more people.
+at 05:34 
+Email This
+BlogThis!
+Share to Twitter
+Share to Facebook
+Share to Pinterest</p>
+<p>Labels: administrative services, how to prepare, prep for Ras, rajasthan exam, RAS, ras prelims, rpsc, upsc
+4 comments:</p>
+<p>Anonymous11 August 2013 at 12:25
+can you give me details regarding ras books in english language</p>
+<p>Reply
+Replies</p>
+<p>Dr. Ashok singh Shekhawat5 March 2014 at 08:31
+You can also see www.rasprepare.blogspot.in for RAS notes</p>
+<p>Reply</p>
+<p>Khizar Syed12 August 2013 at 01:46
+Okay!
+English Books for
+Ancient History - Ancient India - an introductory outline - D.N.Jha
+Medieval history - &quot;A BRIEF HISTORY OF MODERN INDIA&quot; by Spectrum&quot;
+Economics - Indian Economy by RAMESH SINGH
+Polity - Indian polity by M. Laxmikant</p>
+<p>Other than that, you can download NCERT English books from the link given above! (http://www.ncert.nic.in/ncerts/textbook/textbook.htm)</p>
+<p>Read &quot;THE HINDU/TOI&quot; as Daily newspaper.
+and Civil service chronicle as your routine magazine.</p>
+<p>You can also download NIOS Content from the above link.</p>
+<p>Reply</p>
+<p>bhupender singh Rathore3 January 2016 at 09:20
+Visit englishrasnotes.blogspot.in for mains notes</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="Rajasthan 2018.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next" href="राजस्थान के इतिहास जनने के तरीके.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="Rajasthan 2018.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next" href="राजस्थान के इतिहास जनने के तरीके.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+        <!-- Livereload script (if served using the cli tool) -->
+        <script>
+            const wsProtocol = location.protocol === 'https:' ? 'wss:' : 'ws:';
+            const wsAddress = wsProtocol + "//" + location.host + "/" + "__livereload";
+            const socket = new WebSocket(wsAddress);
+            socket.onmessage = function (event) {
+                if (event.data === "reload") {
+                    socket.close();
+                    location.reload();
+                }
+            };
+
+            window.onbeforeunload = function() {
+                socket.close();
+            }
+        </script>
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </div>
+    </body>
+</html>

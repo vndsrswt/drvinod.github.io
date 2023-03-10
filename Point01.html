@@ -1,0 +1,392 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Important Point - Rajasthan</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body>
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var html = document.querySelector('html');
+            var sidebar = null;
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded "><a href="2017December.html"><strong aria-hidden="true">1.</strong> 2017</a></li><li class="chapter-item expanded "><a href="99.References.html"><strong aria-hidden="true">2.</strong> References</a></li><li class="chapter-item expanded "><a href="Festival.html"><strong aria-hidden="true">3.</strong> Festival</a></li><li class="chapter-item expanded "><a href="History.html"><strong aria-hidden="true">4.</strong> इतिहास </a></li><li class="chapter-item expanded "><a href="IT.html"><strong aria-hidden="true">5.</strong> IT</a></li><li class="chapter-item expanded "><a href="Point01.html" class="active"><strong aria-hidden="true">6.</strong> Important Point</a></li><li class="chapter-item expanded "><a href="Rajasthan 2018.html"><strong aria-hidden="true">7.</strong> Rajasthan 2018</a></li><li class="chapter-item expanded "><a href="Syllabus.html"><strong aria-hidden="true">8.</strong> Rajasthan General Awareness</a></li><li class="chapter-item expanded "><a href="राजस्थान के इतिहास जनने के तरीके.html"><strong aria-hidden="true">9.</strong> राजस्थान के इतिहास को जानने के तरीके</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Rajasthan</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="important-point"><a class="header" href="#important-point">Important Point</a></h1>
+<ol>
+<li>
+<p>राजस्‍थान का प्रवेश द्वार किसे कहा जाता है- भरतपुर</p>
+</li>
+<li>
+<p>महुआ के पेङ पाये जाते है- अदयपुर व चितैङगढ</p>
+</li>
+<li>
+<p>राजस्‍थान में छप्‍पनिया अकाल किस वर्ष पङा- 1956 वि स</p>
+</li>
+<li>
+<p>राजस्‍थान में मानसून वर्षा किस दिशा मे बढती है- दक्षिण पश्चिम से उत्‍तर पूर्व</p>
+</li>
+<li>
+<p>राजस्‍थान में गुरू शिखर चोटी की उचाई कितनी है- 1722 मीटर</p>
+</li>
+<li>
+<p>राजस्‍थान में किस शहर को सन सिटी के नाम से जाना जाता है- जोधपुर को</p>
+</li>
+<li>
+<p>राजस्‍थान की आकति है- विषमकोण चतुर्भुज</p>
+</li>
+<li>
+<p>राजस्‍थान के किस जिले का क्षेत्रफल सबसे ज्‍यादा है- जैसलमेर</p>
+</li>
+<li>
+<p>राज्‍य की कुल स्‍थलीय सीमा की लम्‍बाई है- 5920 किमी</p>
+</li>
+<li>
+<p>राजस्‍थान का सबसे पूर्वी जिला है- धौलपुर</p>
+</li>
+<li>
+<p>राजस्‍थान का सागवान कौनसा वक्ष कहलाता है- रोहिङा</p>
+</li>
+<li>
+<p>राजस्‍थान के किसा क्षेत्र में सागौन के वन पाये जाते है- दक्षिणी</p>
+</li>
+<li>
+<p>जून माह में सूर्य किस जिले में लम्‍बत चमकता है- बॉसवाङा</p>
+</li>
+<li>
+<p>राजस्‍थान में पूर्ण मरूस्‍थल वाले जिलें हैं- जैसलमेर, बाडमेर</p>
+</li>
+<li>
+<p>राजस्‍‍थान के कौनसे भाग में सर्वाधिक वर्षा होती है- दक्षिणी-पूर्वी</p>
+</li>
+<li>
+<p>राजस्‍थान में सर्वाधिक तहसीलोंकी संख्‍या किस जिले में है- जयपुर</p>
+</li>
+<li>
+<p>राजस्‍थान में सर्वप्रथम सूर्योदय किस जिले में होता है- धौलपुर</p>
+</li>
+<li>
+<p>उङिया पठार किस जिले में स्थित है- सिरोही</p>
+</li>
+<li>
+<p>राजस्‍थान में किन वनोंका अभाव है- शंकुधारी वन</p>
+</li>
+<li>
+<p>राजस्‍थान के क्षेत्रफल का कितना भू-भाग रेगिस्‍तानी है- लगभग दो-तिहाई</p>
+</li>
+<li>
+<p>राजस्‍थान के पश्चिम भाग में पाये जाने वाला सर्वाधिक विषैला सर्प- पीवणा सर्प</p>
+</li>
+<li>
+<p>राजस्‍थान के पूर्णतया वनस्‍पतिरहित क्षेत्र- समगॉव (जैसलमेर)</p>
+</li>
+<li>
+<p>राजस्‍थान के किस जिले में सूर्यकिरणों का तिरछापन सर्वाधिक होता है- श्रीगंगानगर</p>
+</li>
+<li>
+<p>राजस्‍थान का क्षेतफल इजरायल से कितना गुना है- 17 गुना बङा है</p>
+</li>
+<li>
+<p>राजस्‍थान की 1070 किमी लम्‍बी पाकिस्‍तान से लगीसिमा रेखा का नाम- रेडक्लिफ रेखा</p>
+</li>
+<li>
+<p>कर्क रेखा राजस्‍थान केकिस जिले से छूती हुई गुजरती है- डूंगरपुर व बॉसवाङा से होकर</p>
+</li>
+<li>
+<p>राजस्‍थान में जनसंख्‍या की द़ष्टि से सबसे बङा जिला- जयपुर</p>
+</li>
+<li>
+<p>थार के रेगिस्‍तान के कुल क्षेत्रफल का कितना प्रतिशत राजस्‍थान में है- 58 प्रतिशत</p>
+</li>
+<li>
+<p>राजस्‍थान के रेगिस्‍तान में रेत के विशाल लहरदार टीले को क्‍या कहते है- धोरे</p>
+</li>
+<li>
+<p>राजस्‍थान का एकमात्र जीवाश्‍म पार्क स्थित है- आकलगॉव (जैसलमेर)</p>
+</li>
+<li>
+<p>मारवाड का प्रताप किसे माना जाता हैं?- चन्द्रसेन</p>
+</li>
+<li>
+<p>राजस्थान में किसान आन्दोलन का जनक माना जाता है? विजय सिंह पथिक</p>
+</li>
+<li>
+<p>उत्तर भारत का एकमात्र रावण मंदिर कहाँ है ? जोधपुर</p>
+</li>
+<li>
+<p>राजस्थान की मीरा बाई की जन्मभूमि है मेडता सिटी</p>
+</li>
+<li>
+<p>राजस्थान में भक्ति आन्दोलन प्रारम्भ करने का श्रेय किसे जाता है घन्नाजी</p>
+</li>
+<li>
+<p>राजस्थान के किस लोकदेवताने मुस्लिम आक्रमणकारी महमूद गजनवी के साथ युद्व किया था -गोगा जी</p>
+</li>
+<li>
+<p>ढोल नृत्य किस क्षैत्र में किया जाता है जालौर</p>
+</li>
+<li>
+<p>राजस्थान का शासन सचिवालय कहॉ स्थित है ? जयपुर</p>
+</li>
+<li>
+<p>राजस्थान संगीत नाटक अकादमी कहाँ स्थित है ? जोधपुर</p>
+</li>
+<li>
+<p>एशिया की सबसे बडी ऊन की मण्डी कहा लगती हैं ? बीकानेर</p>
+</li>
+<li>
+<p>राजस्थान का सबसे प्राचीन संगठित उद्योग हैं ? सूती वस्त्रउद्योग</p>
+</li>
+<li>
+<p>राष्ट्रीय सरसों अनुसंधान केंन्द्र कहाँ स्थित हैं ? सेवर (भरतपुर)</p>
+</li>
+<li>
+<p>एनाल्स एण्ड एण्टीक्यूटिज आफ राजस्थान के रचियता हैं कर्नल जेम्स टॉड</p>
+</li>
+<li>
+<p>हम्मीरो रासो किस भाषा का ग्रंथ हैं ? संस्कृत</p>
+</li>
+<li>
+<p>राजस्थान का प्रथम साईन्स एवं मेडिकल विश्वविद्यालय कहाँ हैं ? जयपुर</p>
+</li>
+</ol>
+<p>राजस्थान का 33वां जिला प्रतापगढ़ किस संभाग में है?
+►-उदयपुर
+वस्त्र निर्यातक नगर का दर्जा किस शहर को दिया गया है?
+►-भीलवाड़ा
+घडिय़ालों की प्रजाति को संरक्षित करने के लिए कौन सा अभयारण्य है?
+►-राष्ट्रीय चम्बल अभयारण्य
+राजस्थान विधानसभा की प्रथम महिला अध्यक्ष का नाम है?
+►-श्रीमती सुमित्रासिंह (झुंझुनूं)
+किसी भी राज्य को बीमारू राज्य की श्रेणी में रखने का आधार है?
+►-शिशु व मातृत्व दर
+सामान्यतया राजस्थान को कितने जलवायु क्षेत्रों में विभाजित किया जाता है?
+►-पांच
+राज्य का आद्र्र जिला कहलाता है?
+►-झालावाड़
+राज्य में नई वन नीति की घोषणा कब हुई?
+►-18 फरवरी, 2010
+सूचना का अधिकार दिलाने का अभियान चलाने के लिए किसे मैग्सेसे पुरस्कार से सम्मानित किया गया?
+►-अरूणा राय
+राजस्थान की सबसे पुरानी डेयरी पद्मा कहां स्थित है?
+►-अजमेर
+राजस्थान के लौह पुरूष माने जाते हैं?
+►-दामोदरलाल व्यास
+राजस्थान के कौन से कस्बे का धरातल स्तर उसके पास की नदी के पेटे के स्तर से भी नीचे है?
+►-हनुमानगढ़
+कर्क रेखा राजस्थान के किन जिलों से होकर गुजरती है?
+►-बांसवाड़ा व डूंगरपुर
+गुरूशिखर की ऊँचाई है?
+►-1722 मीटर
+राजस्थान के किन जिलों में कोई नदी नहीं है?
+►-बीकानेर व चूरू
+कोलायत झील है?
+►-बीकानेर
+2011 की जनगणना के अनुसार राजस्थान का कुल जनघनत्व है?
+►-200 व्यक्ति/वर्ग किमी.
+राजस्थान की पिछली पशु-धन संगणना सम्पन्न हुई?
+►-2007 में
+राजस्थान पर्यटन विकास निगम लिमिटेड की स्थापना कब हुई?
+►-1 अप्रैल, 1979 में
+राजस्थान का लगभग कितने प्रतिशत भौगोलिक भाग वनाच्छादित है?
+►-7 से 9 प्रतिशत</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="IT.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next" href="Rajasthan 2018.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="IT.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next" href="Rajasthan 2018.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+        <!-- Livereload script (if served using the cli tool) -->
+        <script>
+            const wsProtocol = location.protocol === 'https:' ? 'wss:' : 'ws:';
+            const wsAddress = wsProtocol + "//" + location.host + "/" + "__livereload";
+            const socket = new WebSocket(wsAddress);
+            socket.onmessage = function (event) {
+                if (event.data === "reload") {
+                    socket.close();
+                    location.reload();
+                }
+            };
+
+            window.onbeforeunload = function() {
+                socket.close();
+            }
+        </script>
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </div>
+    </body>
+</html>
